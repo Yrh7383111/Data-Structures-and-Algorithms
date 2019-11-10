@@ -1,4 +1,4 @@
-package Union_Find;
+package Quick_Find;
 
 
 
