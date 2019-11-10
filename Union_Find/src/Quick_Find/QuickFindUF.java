@@ -1,7 +1,8 @@
 package Quick_Find;
 
 
-
+// Quadratic algorithm
+// It takes N*2(square) array accesses to process a sequence of N union commands on N objects.
 public class QuickFindUF
 {
     // Data Structure
@@ -18,15 +19,15 @@ public class QuickFindUF
             id[i] = i;
     }
 
-    // Find
+    // Find + Connected?
     // Check if p and q have the same id (2 array accesses)
     public boolean connected(int p, int q)
     {
         return id[p] == id[q];
     }
 
-    // Union
-    // Change all entries with id[p] to id[q] (at most 2N + 2 array accesses)
+    // Union (too expensive)
+    // Change all entries with id[p] to id[q] (at most 2N + 2 array accesses) - Problem: many values can be changed
     public void union(int p, int q)
     {
         int pid = id[p];

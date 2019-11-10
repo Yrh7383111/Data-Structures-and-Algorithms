@@ -1,5 +1,6 @@
 package Quick_Find;
 
+
 public class Main
 {
     public static void main(String[] args)
