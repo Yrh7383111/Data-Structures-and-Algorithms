@@ -3,6 +3,9 @@ package Weighted_Quick_Union_PC;
 
 // Linear-time algorithm for M union-find ops on N objects
 // In practice, WQUPC is linear.
+
+// M union-find operations on a set of N objects -
+// Worst-case time: N + M lg* N
 public class WeightedQuickUnionUF
 {
     // Data Structure
@@ -54,7 +57,7 @@ public class WeightedQuickUnionUF
 
     // Find (too expensive)
     // Chase parent pointers until reach root (depth of p array accesses)
-    private int find(int p)
+    public int find(int p)
     {
         validate(p);
 

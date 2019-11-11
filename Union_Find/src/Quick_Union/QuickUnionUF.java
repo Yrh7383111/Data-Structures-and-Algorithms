@@ -1,6 +1,8 @@
 package Quick_Union;
 
 
+// M union-find operations on a set of N objects -
+// Worst-case time: M N
 public class QuickUnionUF
 {
     // Data Structure

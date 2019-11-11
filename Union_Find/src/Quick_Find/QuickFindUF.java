@@ -1,8 +1,8 @@
 package Quick_Find;
 
 
-// Quadratic algorithm
-// It takes N*2(square) array accesses to process a sequence of N union commands on N objects.
+// M union-find operations on a set of N objects -
+// Worst-case time: M N
 public class QuickFindUF
 {
     // Data Structure

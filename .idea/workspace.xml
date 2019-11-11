@@ -5,6 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Union_Find/src/Quick_Find/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Quick_Find/QuickFindUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Union_Find/src/Quick_Union/QuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Quick_Union/QuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Quick_Find/QuickFindUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Union_Find/Quick_Find/QuickFindUF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Quick_Union/QuickUnionUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Union_Find/Quick_Union/QuickUnionUF.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +85,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quick_Union.Main" />
+      <option name="MAIN_CLASS_NAME" value="Weighted_Quick_Union_PC.Main" />
       <module name="Union_Find" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Quick_Union.*" />
+          <option name="PATTERN" value="Weighted_Quick_Union_PC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573425448508</updated>
       <workItem from="1573425449767" duration="49000" />
-      <workItem from="1573425526697" duration="7153000" />
+      <workItem from="1573425526697" duration="9559000" />
     </task>
     <servers />
   </component>
