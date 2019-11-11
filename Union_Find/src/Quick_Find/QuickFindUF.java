@@ -19,11 +19,18 @@ public class QuickFindUF
             id[i] = i;
     }
 
-    // Find + Connected?
+    // Connected?
     // Check if p and q have the same id (2 array accesses)
     public boolean connected(int p, int q)
     {
         return id[p] == id[q];
+    }
+
+    // Find
+    // Return the id of p (1 array access)
+    public int find(int p)
+    {
+        return id[p];
     }
 
     // Union (too expensive)
