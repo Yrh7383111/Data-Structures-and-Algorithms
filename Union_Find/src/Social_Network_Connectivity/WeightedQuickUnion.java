@@ -1,4 +1,8 @@
-package Weighted_Quick_Union_PC;
+package Social_Network_Connectivity;
+
+
+import java.util.Arrays;
+
 
 
 // Linear-time algorithm for M union-find ops on N objects
@@ -6,7 +10,7 @@ package Weighted_Quick_Union_PC;
 
 // M union-find operations on a set of N objects -
 // Worst-case time: (N + M lgN)
-public class WeightedQuickUnionUF
+public class WeightedQuickUnion
 {
     // Data Structure
     // Integer array id[] of length N.
@@ -19,7 +23,7 @@ public class WeightedQuickUnionUF
 
     // Constructor
     // Set id of each object to itself (N array accesses)
-    public WeightedQuickUnionUF(int N)
+    public WeightedQuickUnion(int N)
     {
         count = N;
         id = new int[N];
@@ -64,8 +68,8 @@ public class WeightedQuickUnionUF
         while (p != id[p])
         {
             id[p] = id[id[p]];                              // Path compression -
-                                                            // Simpler one-pass variant (path halving):
-                                                            // Make every other node in path point to its grandparent
+            // Simpler one-pass variant (path halving):
+            // Make every other node in path point to its grandparent
             p = id[p];
         }
         return p;
@@ -73,7 +77,7 @@ public class WeightedQuickUnionUF
 
     // Union
     // Change root of p to point to root of q (depth of p and q array accesses) - Only one value changed
-    public void union(int p, int q)
+    public void union(int p, int q, String timestamp)
     {
         int rootP = find(p);
         int rootQ = find(q);
@@ -85,11 +89,34 @@ public class WeightedQuickUnionUF
         {
             id[rootP] = rootQ;
             size[rootQ] += size[rootP];
+            if (size[rootQ] == count)
+            {
+                System.out.println("All Members are connected at Timestamp"+ timestamp);
+            }
         }
         else {
             id[rootQ] = rootP;
             size[rootP] += size[rootQ];
+            if (size[rootP] == count)
+            {
+                System.out.println("All Members are connected at Timestamp"+ timestamp);
+            }
         }
-        count--;
+    }
+
+    public void printId()
+    {
+        for (int i = 0; i < id.length; i++)
+        {
+            System.out.print(id[i]);
+        }
+    }
+
+    public void printSize()
+    {
+        for (int i = 0; i < size.length; i++)
+        {
+            System.out.print(size[i]);
+        }
     }
 }
