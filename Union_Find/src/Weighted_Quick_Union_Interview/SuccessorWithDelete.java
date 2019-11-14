@@ -12,6 +12,12 @@ public class SuccessorWithDelete
     // Constructor
     public SuccessorWithDelete(int N)
     {
+        // Validate that N is a valid index
+        if (N < 0)
+        {
+            throw new IllegalArgumentException("Site numbers should be more than 0");
+        }
+        // Else
         this.N = N;                                                             // this = object (SuccessorWithDelete)
         data = new boolean[N];
 
@@ -24,6 +30,12 @@ public class SuccessorWithDelete
     // Remove an element
     public void remove(int x)
     {
+        // Validate that x is a valid index
+        if (x < 0 || x >= N)
+        {
+            throw new IllegalArgumentException("Error! Please check the statement: 0 <= x < n");
+        }
+        // Else
         data[x] = false;
 
         if (x > 0 && !data[x-1])                                                // To link nodes which have already been removed
@@ -41,6 +53,12 @@ public class SuccessorWithDelete
     // Find the successor in an array
     public int successor(int x)
     {
+        // Validate that x is a valid index
+        if (x < 0 || x >= N)
+        {
+            throw new IllegalArgumentException("Error! Please check the statement: 0 <= x < n");
+        }
+        // Else
         if (data[x])                                                            // If data[x] is not removed yet, then return
         {
             return x;
