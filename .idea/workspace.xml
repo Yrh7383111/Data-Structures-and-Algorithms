@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity_Interview/WeightedQuickUnionSNC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity_Interview/WeightedQuickUnionSNC.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573425448508</updated>
       <workItem from="1573425449767" duration="49000" />
-      <workItem from="1573425526697" duration="23961000" />
+      <workItem from="1573425526697" duration="24206000" />
     </task>
     <servers />
   </component>
