@@ -1,4 +1,4 @@
-package Weighted_Quick_Union_Largest;
+package Weighted_Quick_Union_Interview;
 
 
 

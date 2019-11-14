@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_Interview/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Social_Network_Connectivity/WeightedQuickUnionSNC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_PC/WeightedQuickUnionUF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Social_Network_Connectivity/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Union_Find/Social_Network_Connectivity/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Social_Network_Connectivity/WeightedQuickUnion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_Largest/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_Largest/WeightedQuickUnionLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/Weighted_Quick_Union_Interview/WeightedQuickUnionLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Weighted_Quick_Union_Largest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Union_Find/Weighted_Quick_Union_Largest/WeightedQuickUnionLargest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,12 +85,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Weighted_Quick_Union_Largest.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Social_Network_Connectivity.Main" />
       <module name="Union_Find" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Weighted_Quick_Union_Largest.*" />
+          <option name="PATTERN" value="Social_Network_Connectivity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Social_Network_Connectivity.Main" />
+      <option name="MAIN_CLASS_NAME" value="Weighted_Quick_Union_Interview.Main" />
       <module name="Union_Find" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Social_Network_Connectivity.*" />
+          <option name="PATTERN" value="Weighted_Quick_Union_Interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573425448508</updated>
       <workItem from="1573425449767" duration="49000" />
-      <workItem from="1573425526697" duration="16825000" />
+      <workItem from="1573425526697" duration="21172000" />
     </task>
     <servers />
   </component>
