@@ -1,4 +1,4 @@
-package Social_Network_Connectivity;
+package Social_Network_Connectivity_Interview;
 
 
 
