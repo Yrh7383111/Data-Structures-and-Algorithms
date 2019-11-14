@@ -1,16 +1,13 @@
 package Social_Network_Connectivity;
 
 
-import java.util.Arrays;
-
-
 
 // Linear-time algorithm for M union-find ops on N objects
 // In practice, WQUPC is linear.
 
 // M union-find operations on a set of N objects -
-// Worst-case time: (N + M lgN)
-public class WeightedQuickUnion
+// Worst-case time: (N + M lg*N)
+public class WeightedQuickUnionSNC
 {
     // Data Structure
     // Integer array id[] of length N.
@@ -23,7 +20,7 @@ public class WeightedQuickUnion
 
     // Constructor
     // Set id of each object to itself (N array accesses)
-    public WeightedQuickUnion(int N)
+    public WeightedQuickUnionSNC(int N)
     {
         count = N;
         id = new int[N];
@@ -68,8 +65,8 @@ public class WeightedQuickUnion
         while (p != id[p])
         {
             id[p] = id[id[p]];                              // Path compression -
-            // Simpler one-pass variant (path halving):
-            // Make every other node in path point to its grandparent
+                                                            // Simpler one-pass variant (path halving):
+                                                            // Make every other node in path point to its grandparent
             p = id[p];
         }
         return p;
@@ -106,17 +103,17 @@ public class WeightedQuickUnion
 
     public void printId()
     {
-        for (int i = 0; i < id.length; i++)
+        for (int value : id)
         {
-            System.out.print(id[i]);
+            System.out.print(value);
         }
     }
 
     public void printSize()
     {
-        for (int i = 0; i < size.length; i++)
+        for (int value : size)
         {
-            System.out.print(size[i]);
+            System.out.print(value);
         }
     }
 }
