@@ -21,7 +21,13 @@ public class WeightedQuickUnionUF
     // Set id of each object to itself (N array accesses)
     public WeightedQuickUnionUF(int N)
     {
-        count = N;
+        // Validate that N is a valid index
+        if (N < 0)
+        {
+            throw new IllegalArgumentException("Site numbers should be more than 0");
+        }
+        // Else
+        count = N;                                                          // count - number of sites
         id = new int[N];
         size = new int[N];
 
@@ -42,30 +48,30 @@ public class WeightedQuickUnionUF
     // Check if p and q have same root (depth of p and q array accesses)
     public boolean connected(int p, int q)
     {
-        return find(p) == find(q);
-    }
-
-    // Validate that p is a valid index
-    private void validate(int p)
-    {
-        int n = id.length;
-        if (p < 0 || p >= n)
+        // Validate that p and q is a valid index
+        if (p < 0 || p >= count || q < 0 || q >= count)
         {
-            throw new IllegalArgumentException("index " + p + " is not between 0 and " + (n-1));
+            throw new IllegalArgumentException("Error! Please check the statement: 0 <= p < n and 0 <= q < n");
         }
+        // Else
+        return find(p) == find(q);
     }
 
     // Find (too expensive)
     // Chase parent pointers until reach root (depth of p array accesses)
     private int find(int p)
     {
-        validate(p);
-
+        // Validate that p is a valid index
+        if (p < 0 || p >= count)
+        {
+            throw new IllegalArgumentException("Error! Please check the statement: 0 <= p < n");
+        }
+        // Else
         while (p != id[p])
         {
-            id[p] = id[id[p]];                              // Path compression -
-                                                            // Simpler one-pass variant (path halving):
-                                                            // Make every other node in path point to its grandparent
+            id[p] = id[id[p]];                                      // Path compression -
+                                                                    // Simpler one-pass variant (path halving):
+                                                                    // Make every other node in path point to its grandparent
             p = id[p];
         }
         return p;
@@ -75,6 +81,12 @@ public class WeightedQuickUnionUF
     // Change root of p to point to root of q (depth of p and q array accesses) - Only one value changed
     public void union(int p, int q)
     {
+        // Validate that p and q is a valid index
+        if (p < 0 || p >= count || q < 0 || q >= count)
+        {
+            throw new IllegalArgumentException("Error! Please check the statement: 0 <= p < n");
+        }
+        // Else
         int rootP = find(p);
         int rootQ = find(q);
 
@@ -90,6 +102,5 @@ public class WeightedQuickUnionUF
             id[rootQ] = rootP;
             size[rootP] += size[rootQ];
         }
-        count--;
     }
 }
