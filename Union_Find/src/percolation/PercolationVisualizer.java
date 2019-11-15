@@ -18,11 +18,10 @@
 package percolation;
 
 
-
-import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdDraw;
 
-import java.awt.Font;
+import java.awt.*;
 
 
 
@@ -84,7 +83,7 @@ public class PercolationVisualizer
     public static void main(String[] args)
     {
         // Variables
-        In in = new In(args[0]);                                                // input file
+        In in = new In(args[0]);                                                // Input file
         int n = in.readInt();                                                   // n-by-n percolation system
 
 
