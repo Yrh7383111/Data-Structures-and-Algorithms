@@ -37,7 +37,7 @@ public class InteractivePercolationVisualizer
 
         while (true)
         {
-            // detected mouse click
+            // Detected mouse click
             if (StdDraw.isMousePressed())
             {
                 // Screen coordinates
