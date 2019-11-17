@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class Three_Sum
+public class ThreeSum
 {
     public List<List<Integer>> threeSum(int[] num)
     {
@@ -71,7 +71,7 @@ public class Three_Sum
     public static void main(String[] args)
     {
         int[] array = new int[]{-1, 0, 1, 2, -1, -4};
-        Three_Sum object = new Three_Sum();
+        ThreeSum object = new ThreeSum();
 
         List<List<Integer>> result = object.threeSum(array);
         for (List<Integer> row : result) {

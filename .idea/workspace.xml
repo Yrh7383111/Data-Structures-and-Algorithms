@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis_of_Algorithms/src/Three_Sum/Three_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Analysis_of_Algorithms/Three_Sum/Three_Sum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Union_Find/src/percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/src/percolation/PercolationStats.java" afterDir="false" />
@@ -80,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Three_Sum">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="percolation.InteractivePercolationVisualizer" />
       <module name="Union_Find" />
@@ -120,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Three_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Three_Sum.Three_Sum" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Three_Sum.ThreeSum" />
       <module name="Analysis_of_Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Three_Sum" />
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.InteractivePercolationVisualizer" />
         <item itemvalue="Application.PercolationVisualizer" />
         <item itemvalue="Application.PercolationStats" />
@@ -153,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573425448508</updated>
       <workItem from="1573425449767" duration="49000" />
-      <workItem from="1573425526697" duration="54322000" />
+      <workItem from="1573425526697" duration="54517000" />
     </task>
     <servers />
   </component>
