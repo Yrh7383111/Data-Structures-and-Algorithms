@@ -41,6 +41,7 @@ public class PercolationStats
             while (!percolation.percolates())
             {
                 // Index variable
+                // 1 <= number < (n + 1)
                 int row = StdRandom.uniform(1, n + 1);
                 int col = StdRandom.uniform(1, n + 1);
 
@@ -93,7 +94,7 @@ public class PercolationStats
     public static void main(String[] args)
     {
         // Variables
-        int n = Integer.parseInt(args[0]);;
+        int n = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
         PercolationStats percolationStats = new PercolationStats(n, trials);
 
