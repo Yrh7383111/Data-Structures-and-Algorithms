@@ -1,7 +1,11 @@
+// Examine the item most recently added.
+// LIFO - Last in first out
+
 package Stacks;
 
 
 import java.util.NoSuchElementException;
+
 
 
 // Trade off: (faster push or pop operations)
@@ -10,8 +14,8 @@ import java.util.NoSuchElementException;
 public class LinkedStackOfStrings
 {
     // Stack variables
-    private Node first;                                         // Top of the stack
-    private int n;                                              // Size of the stack
+    private Node first;                                             // Top of the stack
+    private int n;                                                  // Size of the stack
 
 
     // Operations
@@ -28,8 +32,8 @@ public class LinkedStackOfStrings
     private class Node
     {
         // Node variables
-        String item;                                            // Data
-        Node next;                                              // Pointer
+        private String item;                                        // Data
+        private Node next;                                          // Pointer
     }
 
     public boolean isEmpty()
@@ -46,11 +50,11 @@ public class LinkedStackOfStrings
     // Add the item to this stack.
     public void push(String item)
     {
-        Node oldFirst = first;                                  // Remember the address of the "first" pointer
+        Node oldFirst = first;                                      // Remember the address of the "first" pointer
         first = new Node();
-        first.item = item;                                      // Set up the data
-        first.next = oldFirst;                                  // Connect the newly added node with the first node previously
-        n++;                                                    // Increase the size
+        first.item = item;                                          // Set up the data
+        first.next = oldFirst;                                      // Connect the newly added node with the node that was most recently added.
+        n++;                                                        // Increase the size
     }
 
     // Remove and return the item most recently added to this stack.
@@ -59,9 +63,9 @@ public class LinkedStackOfStrings
         if (isEmpty())
             throw new NoSuchElementException("Stack underflow");
         // Else
-        String item = first.item;                               // Remember the data of the node which will be removed soon
-        first = first.next;                                     // Move the "first" pointer to the next one, and Java garbage collector will remove the first node
-        n--;                                                    // Decrease the size
+        String item = first.item;                                   // Remember the data of the node which will be removed soon
+        first = first.next;                                         // Move the "first" pointer to the next one, and Java garbage collector will remove the first node
+        n--;                                                        // Decrease the size
         return item;
     }
 
