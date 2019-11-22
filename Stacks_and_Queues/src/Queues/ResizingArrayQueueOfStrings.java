@@ -1,26 +1,28 @@
-package Stacks;
+package Queues;
 
 
 import java.util.NoSuchElementException;
 
 
-// Trade off: (less wasted space)
-// 1. Every operation takes constant amortized time.
-// 2. Less wasted space
-public class ResizingArrayStackOfStrings
+
+public class ResizingArrayQueueOfStrings
 {
-    // Stack variables
-    private String[] s;                                              // Array is between 25% and 100% full.
-    private int n;                                                   // Size of the stack
+    // Queue variables
+    private String[] s;                                             // Array is between 25% and 100% full.
+    private int first;                                              // Index of first element of queue
+    private int last;                                               // Index of next available slot
+    private int n;                                                  // Size of the stack
 
 
     // Operations
 
     // Constructor
     // Initialize the array with default size: 1
-    public ResizingArrayStackOfStrings()
+    public ResizingArrayQueueOfStrings()
     {
         s = new String[2];
+        first = 0;
+        last = 0;
         n = 0;
     }
 
@@ -29,7 +31,7 @@ public class ResizingArrayStackOfStrings
         return n == 0;
     }
 
-    // Size of the stack
+    // Size of the queue
     public int size()
     {
         return n;
@@ -40,23 +42,31 @@ public class ResizingArrayStackOfStrings
     {
         String[] copy = new String[capacity];
 
-        for (int i = 0; i < n; i++)                                 // Copy all the data from old array to the new array
-            copy[i] = s[i];
+        for (int i = 0; i < n; i++)
+            copy[i] = s[(first + i) % s.length];                    // There might some empty space in the beginning and at the end
 
         s = copy;                                                   // Assign the new array to be the array of "ResizingArrayStackOfStrings" class
+        first = 0;                                                  // "first" starts from index 0
+        last  = n;                                                  // "last" ends at index n
     }
 
-    // Add the item to this stack.
+    // Add new item at s[last].
     // If the array is full,
     // create a new array of twice the size, and copy items.
-    public void push(String item)                                   // Inserting first N items takes time proportional to N (~3N)
+    public void enqueue(String item)                                // Inserting first N items takes time proportional to N (~3N)
     {
-        if (n == s.length)
+        if (n == s.length)                                          // Double size of array if necessary and recopy to front of array
             resize(2 * s.length);
-        s[n++] = item;                                              // n++ - 1. Index into array   2. Increment n (in order)
+
+        s[last++] = item;                                           // last++ - 1. Index into array   2. Increment n (in order)
+
+        if (last == s.length)                                       // Wrap-around
+            last = 0;
+
+        n++;
     }
 
-    // Remove and return the item most recently added to this stack.
+    // Removes and returns the item on this queue that was least recently added. (Remove item from s[first].)
     // Halve size of the array, when the array is one-quarter full.
     public String pop()
     {
@@ -68,6 +78,7 @@ public class ResizingArrayStackOfStrings
                                                                     // Avoid "loitering": garbage collector can reclaim memory only if no outstanding references
         if (n > 0 && n == s.length / 4)
             resize(s.length / 2);
+        
         return item;
     }
 

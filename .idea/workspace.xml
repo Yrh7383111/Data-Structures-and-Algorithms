@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/LinkedStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/LinkedStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStackOfStrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.2705078" />
     <property name="project.structure.side.proportion" value="0.3587684" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,7 +169,7 @@
       <workItem from="1573425526697" duration="54770000" />
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
-      <workItem from="1574188468597" duration="7846000" />
+      <workItem from="1574188468597" duration="10739000" />
     </task>
     <servers />
   </component>
