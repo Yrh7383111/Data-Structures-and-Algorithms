@@ -7,11 +7,12 @@ package Queues;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 
 
-public class Queue<Item>
+public class Queue<Item> implements Iterable<Item>
 {
     // Queue variables
     private Node<Item> first;                                       // Beginning of queue
@@ -47,7 +48,7 @@ public class Queue<Item>
         return n;
     }
 
-    // Add the item to this queue.
+    // Add the item to this queue from the last.
     public void enqueue(Item item)
     {
         Node<Item> oldLast = last;                                  // Remember the address of the "last" pointer
@@ -86,6 +87,49 @@ public class Queue<Item>
             throw new NoSuchElementException("Queue underflow");
         // Else
         return first.item;
+    }
+
+    // Return an iterator that iterates over the items in this queue in FIFO order.
+    public Iterator<Item> iterator()
+    {
+        return new ListIterator(first);
+    }
+
+    // An iterator, doesn't implement remove() since it's optional
+    private class ListIterator implements Iterator<Item>
+    {
+        // Pointer to iterate through a linked-list based queue
+        private Node<Item> current;
+
+
+        // Constructor
+        public ListIterator(Node<Item> first)
+        {
+            current = first;
+        }
+
+        // To check if the pointer reaches the end of linked-list based queue
+        public boolean hasNext()
+        {
+            return current != null;
+        }
+
+        // Optional
+        public void remove()
+        {
+            throw new UnsupportedOperationException();
+        }
+
+        // In normal order
+        public Item next()
+        {
+            if (!hasNext())
+                throw new NoSuchElementException();
+            // Else
+            Item item = current.item;                               // Remember the data of the node
+            current = current.next;                                 // Move the pointer to the next node
+            return item;
+        }
     }
 
 

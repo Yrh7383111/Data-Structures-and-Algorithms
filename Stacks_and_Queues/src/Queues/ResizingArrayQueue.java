@@ -4,18 +4,19 @@ package Queues;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
 
 
-public class ResizingArrayQueue<Item>
+public class ResizingArrayQueue<Item> implements Iterable<Item>
 {
     // Queue variables
     private Item[] s;                                               // Array is between 25% and 100% full.
     private int first;                                              // Index of first element of queue
     private int last;                                               // Index of next available slot
-    private int n;                                                  // Size of the stack
+    private int n;                                                  // Size of the queue
 
 
     // Operations
@@ -96,6 +97,40 @@ public class ResizingArrayQueue<Item>
             throw new NoSuchElementException("Stack underflow");
         // Else
         return s[first];
+    }
+
+    public Iterator<Item> iterator()
+    {
+        return new ArrayIterator();
+    }
+
+    // An iterator, doesn't implement remove() since it's optional
+    private class ArrayIterator implements Iterator<Item>
+    {
+        // Start from array index 0
+        private int i = 0;
+
+
+        // To check if i less than the size of the queue
+        public boolean hasNext()
+        {
+            return i < n;                                           // n - size of the queue
+        }
+
+        public void remove()
+        {
+            throw new UnsupportedOperationException();
+        }
+
+        public Item next()
+        {
+            if (!hasNext())
+                throw new NoSuchElementException();
+            // Else
+            Item item = s[(i + first) % s.length];                  // It's possible that some indexes at the beginning of or at the end of an array are empty
+            i++;
+            return item;
+        }
     }
 
 

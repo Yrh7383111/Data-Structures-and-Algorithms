@@ -4,6 +4,7 @@ package Stacks;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
@@ -12,7 +13,7 @@ import java.util.Objects;
 // Trade off: (less wasted space)
 // 1. Every operation takes constant amortized time.
 // 2. Less wasted space
-public class ResizingArrayStack<Item>
+public class ResizingArrayStack<Item> implements Iterable<Item>
 {
     // Stack variables
     private Item[] s;                                                // Array is between 25% and 100% full.
@@ -85,6 +86,45 @@ public class ResizingArrayStack<Item>
         return s[n-1];
     }
 
+    //
+    public Iterator<Item> iterator()
+    {
+        return new ReverseArrayIterator();
+    }
+
+    // An iterator, doesn't implement remove() since it's optional
+    private class ReverseArrayIterator implements Iterator<Item>
+    {
+        private int i;
+
+
+        // Constructor
+        public ReverseArrayIterator()
+        {
+            // Start from the last array index
+            i = n - 1;
+        }
+
+        // To check if the size of the array is greater or larger than 0
+        public boolean hasNext()
+        {
+            return i >= 0;
+        }
+
+        // Optional
+        public void remove()
+        {
+            throw new UnsupportedOperationException();
+        }
+
+        public Item next()
+        {
+            if (!hasNext())
+                throw new NoSuchElementException();
+            // Else
+            return s[i--];                                          // i-- - 1. Index into array   2. Decrement i (in order)
+        }
+    }
 
     public static void main(String[] args)
     {
