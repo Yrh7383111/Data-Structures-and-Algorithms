@@ -5,7 +5,6 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
 
 
 
@@ -20,7 +19,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
     // construct an empty randomized queue
     public RandomizedQueue()
     {
-        s = (Item[]) new Objects[2];
+        s = (Item[]) new Object[2];
         n = 0;
     }
 
@@ -62,11 +61,21 @@ public class RandomizedQueue<Item> implements Iterable<Item>
         }
     }
 
+    private void swap(Item[] array, int first, int second)
+    {
+        if (first == second)
+            return;
+        // Else
+        Item temporary = array[first];
+        array[first] = array[second];
+        array[second] = temporary;
+    }
+
     // add the item
     public void enqueue(Item item)
     {
         if (item == null)
-            throw new IllegalArgumentException();
+            throw new NullPointerException();
         // Else
         if (n == s.length)                                          // Double size of array if necessary and recopy to front of array
             resize(2 * s.length);
@@ -83,6 +92,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
         int index = StdRandom.uniform(n);
         Item item = s[index];
         s[index] = null;
+        swap(s, index, n - 1);                              // Make sure array indexes with values are all in the front, and all the null indexes are at the back
         n--;
 
         if (n > 0 && n == s.length / 4)
@@ -154,7 +164,11 @@ public class RandomizedQueue<Item> implements Iterable<Item>
     // unit testing (required)
     public static void main(String[] args)
     {
+        RandomizedQueue<Integer> rq = new RandomizedQueue<Integer>();
 
+        for (int i = 0; i < 10; ++i)
+            rq.enqueue(i);
+        for (int i = 0; i < 3; i++)
+            System.out.print(rq.dequeue() + " ");
     }
-
 }

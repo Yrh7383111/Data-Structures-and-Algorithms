@@ -1,10 +1,9 @@
 package Deques_and_Randomized_Queues;
 
 
-import edu.princeton.cs.algs4.In;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
 
 
 // Deque implementation must support each deque operation (including construction) in constant worst-case time.
