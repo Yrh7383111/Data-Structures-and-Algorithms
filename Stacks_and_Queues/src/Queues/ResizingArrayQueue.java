@@ -76,11 +76,14 @@ public class ResizingArrayQueue<Item> implements Iterable<Item>
     public Item dequeue()
     {
         if (isEmpty())
-            throw new NoSuchElementException("Stack underflow");
+            throw new NoSuchElementException("Queue underflow");
         // Else
-        Item item = s[first++];                                     // --n - 1. Decrement n   2. Index into array (in order)
+        Item item = s[first];                                       // --n - 1. Decrement n   2. Index into array (in order)
         s[first] = null;                                            // Allow null items to be inserted.
                                                                     // Avoid "loitering": garbage collector can reclaim memory only if no outstanding references
+        n--;
+        first++;
+
         if (first == s.length)                                      // Wrap-around
             first = 0;
 

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +170,7 @@
       <workItem from="1573425526697" duration="54770000" />
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
-      <workItem from="1574188468597" duration="21765000" />
+      <workItem from="1574188468597" duration="26268000" />
     </task>
     <servers />
   </component>

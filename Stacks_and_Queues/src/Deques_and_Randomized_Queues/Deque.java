@@ -5,10 +5,10 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 
-
+// Deque implementation must support each deque operation (including construction) in constant worst-case time.
 public class Deque<Item> implements Iterable<Item>
 {
-    // Queue variables
+    // Dequeue variables
     private Node<Item> first;                                       // Beginning of queue
     private Node<Item> last;                                        // End of queue
     private int n;                                                  // Number of elements on deque
@@ -173,6 +173,7 @@ public class Deque<Item> implements Iterable<Item>
             return item;
         }
     }
+
 
     // unit testing (required)
     public static void main(String[] args)
