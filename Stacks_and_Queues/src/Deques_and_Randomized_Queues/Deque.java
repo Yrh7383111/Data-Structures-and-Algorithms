@@ -1,6 +1,8 @@
 package Deques_and_Randomized_Queues;
 
 
+import edu.princeton.cs.algs4.In;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -42,7 +44,7 @@ public class Deque<Item> implements Iterable<Item>
     // is the deque empty?
     public boolean isEmpty()
     {
-        return first == null;
+        return n == 0;
     }
 
     // return the number of items on the deque
@@ -102,7 +104,7 @@ public class Deque<Item> implements Iterable<Item>
         Item item = first.item;
         first = first.next;
 
-        if (isEmpty())
+        if (first == null)
             last = null;                                            // To avoid loitering
         else {
             first.previous = null;
@@ -121,7 +123,7 @@ public class Deque<Item> implements Iterable<Item>
         Item item = last.item;
         last = last.previous;
 
-        if (isEmpty())
+        if (last == null)
             first = null;                                            // To avoid loitering
         else {
             last.next = null;
@@ -178,6 +180,28 @@ public class Deque<Item> implements Iterable<Item>
     // unit testing (required)
     public static void main(String[] args)
     {
+        Deque<Integer> deque = new Deque<Integer>();
 
+
+        for (int i = 0; i < 10; i++)
+        {
+            deque.addFirst(i);
+            deque.addLast(i * 2);
+        }
+//        for (Integer element : deque)
+//        {
+//            System.out.print(element + " ");
+//        }
+//        Node current = deque.first;
+//        do {
+//            System.out.print(current.item + " ");
+//            current = current.next;
+//        }
+//        while (current != null);
+
+        while (!deque.isEmpty())
+        {
+            System.out.print(deque.removeFirst() + " ");
+        }
     }
 }
