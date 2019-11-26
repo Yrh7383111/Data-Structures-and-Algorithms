@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/TwoStacksQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/TwoStacksQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/Stack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +145,8 @@
       <workItem from="1573425526697" duration="54770000" />
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
-      <workItem from="1574188468597" duration="36910000" />
+      <workItem from="1574188468597" duration="37075000" />
+      <workItem from="1574742522224" duration="987000" />
     </task>
     <servers />
   </component>
