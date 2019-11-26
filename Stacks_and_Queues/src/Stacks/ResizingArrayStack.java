@@ -8,7 +8,6 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 
-
 // Trade off: (less wasted space)
 // 1. Every operation takes constant amortized time.
 // 2. Less wasted space
