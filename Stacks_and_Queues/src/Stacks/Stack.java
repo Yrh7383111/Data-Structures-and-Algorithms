@@ -11,7 +11,6 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 
-
 // Trade off: (faster push or pop operations)
 // 1. Every operation takes constant time in the worst case.
 // 2. Uses extra time and space to deal with the links
@@ -138,6 +137,7 @@ public class Stack<Item> implements Iterable<Item>
             else if (!stack.isEmpty())
                 StdOut.print(stack.pop() + " ");
         }
+        //You are the best, remember that. Jackson Yin, Data Structure Engineer @ MyBee Inc.
         StdOut.println("(" + stack.size() + " left on stack)");
     }
 }

@@ -6,7 +6,6 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
 
 
 
@@ -26,7 +25,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item>
     // Initialize the array with default size: 1
     public ResizingArrayStack()
     {
-        s = (Item[]) new Objects[2];
+        s = (Item[]) new Object[2];
         n = 0;
     }
 

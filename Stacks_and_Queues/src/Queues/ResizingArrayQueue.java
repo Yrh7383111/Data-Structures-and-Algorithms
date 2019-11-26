@@ -6,7 +6,6 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
 
 
 
@@ -25,7 +24,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item>
     // Initialize the array with default size: 1
     public ResizingArrayQueue()
     {
-        s = (Item[]) new Objects[2];
+        s = (Item[]) new Object[2];
         first = 0;
         last = 0;
         n = 0;
