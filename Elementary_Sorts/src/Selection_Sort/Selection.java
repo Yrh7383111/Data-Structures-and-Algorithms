@@ -13,7 +13,7 @@ Invariants:
 2. No entry to right of ↑ is smaller than any entry to the left of ↑.
 
 Algorithm analysis:
-Selection sort uses (N– 1) + (N– 2) + ... + 1 + 0 ~ N(2) / 2 compares, and N exchanges.
+(Best, Worst and Average cases): Selection sort uses (N– 1) + (N– 2) + ... + 1 + 0 (~ ½ N(2)) compares, and N exchanges.
 
 Pros and Cons:
 Pro: Data movement is minimal. Linear number of exchanges.

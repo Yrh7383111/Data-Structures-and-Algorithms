@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/SelectionBars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +83,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Selection">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Deques_and_Randomized_Queues.Deque" />
-      <module name="Stacks_and_Queues" />
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Insertion_Sort.Insertion" />
+      <module name="Elementary_Sorts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Deques_and_Randomized_Queues.*" />
+          <option name="PATTERN" value="Insertion_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Deques_and_Randomized_Queues.RandomizedQueue" />
-      <module name="Stacks_and_Queues" />
+    <configuration name="InsertionBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Insertion_Sort.InsertionBars" />
+      <module name="Elementary_Sorts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Deques_and_Randomized_Queues.*" />
+          <option name="PATTERN" value="Insertion_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Deque" />
-      <item itemvalue="Application.RandomizedQueue" />
       <item itemvalue="Application.TwoStacksQueue" />
       <item itemvalue="Application.SelectionBars" />
       <item itemvalue="Application.Selection" />
+      <item itemvalue="Application.InsertionBars" />
+      <item itemvalue="Application.Insertion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.InsertionBars" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.SelectionBars" />
         <item itemvalue="Application.TwoStacksQueue" />
-        <item itemvalue="Application.RandomizedQueue" />
-        <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,7 @@
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
       <workItem from="1574188468597" duration="37075000" />
-      <workItem from="1574742522224" duration="6024000" />
+      <workItem from="1574742522224" duration="8796000" />
     </task>
     <servers />
   </component>
