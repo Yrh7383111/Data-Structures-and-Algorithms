@@ -135,8 +135,10 @@ public class Insertion
     private static boolean isSorted(Object[] a, int lo, int hi, Comparator comparator)
     {
         for (int i = lo + 1; i < hi; i++)
-            if (less(a[i], a[i-1], comparator))
+        {
+            if (less(a[i], a[i - 1], comparator))
                 return false;
+        }
 
         return true;
     }

@@ -56,6 +56,7 @@ public class InsertionBars
         a[j] = t;
     }
 
+
     public static void main(String[] args)
     {
         int n = Integer.parseInt(args[0]);

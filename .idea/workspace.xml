@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/InsertionBars.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/InsertionBars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/SelectionBars.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/SelectionBars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/Insertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/InsertionBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/InsertionBars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Insertion">
+  <component name="RunManager" selected="Application.ShellBars">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Insertion_Sort.Insertion" />
       <module name="Elementary_Sorts" />
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoStacksQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.TwoStacksQueue" />
-      <module name="Stacks_and_Queues" />
+    <configuration name="ShellBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shell_Sort.ShellBars" />
+      <module name="Elementary_Sorts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queues.*" />
+          <option name="PATTERN" value="Shell_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TwoStacksQueue" />
       <item itemvalue="Application.SelectionBars" />
       <item itemvalue="Application.Selection" />
       <item itemvalue="Application.InsertionBars" />
       <item itemvalue="Application.Insertion" />
+      <item itemvalue="Application.ShellBars" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellBars" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.InsertionBars" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.SelectionBars" />
-        <item itemvalue="Application.TwoStacksQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +185,7 @@
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
       <workItem from="1574188468597" duration="37075000" />
-      <workItem from="1574742522224" duration="12514000" />
+      <workItem from="1574742522224" duration="14494000" />
     </task>
     <servers />
   </component>

@@ -16,9 +16,11 @@ public class SelectionBars
             int min = i;
 
             for (int j = i+1; j < n; j++)
+            {
                 if (less(a[j], a[min]))
                     min = j;
-                
+            }
+
             show(a, i, min);
             exch(a, i, min);
         }
@@ -52,6 +54,7 @@ public class SelectionBars
         a[i] = a[j];
         a[j] = t;
     }
+
 
     public static void main(String[] args)
     {
