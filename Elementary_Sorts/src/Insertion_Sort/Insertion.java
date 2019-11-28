@@ -181,7 +181,7 @@ public class Insertion
         show(indexArray);
 
         Insertion.sort(array);
-        System.out.println("Sorted array: ");
+        System.out.println("Insertion sorted array: ");
         show(array);
     }
 }

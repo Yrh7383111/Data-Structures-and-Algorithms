@@ -1,8 +1,8 @@
 package Shell_Sort;
 
 
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 
 
 
@@ -18,8 +18,8 @@ public class Shell
 
         // 3x+1 increment sequence:  1, 4, 13, 40, 121, 364, 1093, ...
         int h = 1;
-        while (h < n/3)
-            h = 3*h + 1;
+        while (h < n / 3)
+            h = 3 * h + 1;
 
         while (h >= 1)
          {
@@ -58,7 +58,9 @@ public class Shell
     private static boolean isSorted(Comparable[] a)
     {
         for (int i = 1; i < a.length; i++)
-            if (less(a[i], a[i-1])) return false;
+            if (less(a[i], a[i-1]))
+                return false;
+
         return true;
     }
 
@@ -76,15 +78,28 @@ public class Shell
     private static void show(Comparable[] a)
     {
         for (Comparable comparable : a)
-            StdOut.println(comparable);
+            StdOut.print(comparable + " ");
+        System.out.println();
     }
 
 
 
     public static void main(String[] args)
     {
-        String[] a = StdIn.readAllStrings();
-        Shell.sort(a);
-        show(a);
+        // Variable
+        Integer[] array = new Integer[20];
+
+
+        // Operations
+        for (int i = 0; i < array.length; i++)
+        {
+            array[i] = StdRandom.uniform(20);
+        }
+        System.out.println("Original array: ");
+        show(array);
+
+        Shell.sort(array);
+        System.out.println("Shell sorted array: ");
+        show(array);
     }
 }
