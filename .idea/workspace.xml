@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/SelectionBars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Selection_Sort/SelectionBars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elementary_Sorts/Insertion_Sort/Insertion.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +179,7 @@
       <workItem from="1574029736867" duration="1590000" />
       <workItem from="1574176276363" duration="8203000" />
       <workItem from="1574188468597" duration="37075000" />
-      <workItem from="1574742522224" duration="8796000" />
+      <workItem from="1574742522224" duration="12514000" />
     </task>
     <servers />
   </component>

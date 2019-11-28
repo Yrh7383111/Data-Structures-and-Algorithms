@@ -32,6 +32,7 @@ public class Insertion
         int n = a.length;
         for (int i = 1; i < n; i++)
         {
+            // Transitivity of total order
             for (int j = i; j > 0 && less(a[j], a[j-1]); j--)
                 exch(a, j, j-1);
 
@@ -67,8 +68,10 @@ public class Insertion
             index[i] = i;
 
         for (int i = 1; i < n; i++)
-            for (int j = i; j > 0 && less(a[index[j]], a[index[j-1]]); j--)
-                exch(index, j, j-1);
+        {
+            for (int j = i; j > 0 && less(a[index[j]], a[index[j - 1]]); j--)
+                exch(index, j, j - 1);
+        }
 
         return index;
     }
@@ -84,7 +87,8 @@ public class Insertion
     }
 
     // Is v < w ?
-    private static boolean less(Object v, Object w, Comparator comparator) {
+    private static boolean less(Object v, Object w, Comparator comparator)
+    {
         return comparator.compare(v, w) < 0;
     }
 
@@ -146,12 +150,20 @@ public class Insertion
         System.out.println();
     }
 
+    private static void show(int[] a)
+    {
+        for (int element : a)
+            StdOut.print(element + " ");
+        System.out.println();
+    }
+
 
 
     public static void main(String[] args)
     {
         // Variable
         Integer[] array = new Integer[20];
+        int[] indexArray = new int[20];
 
 
         // Operations
@@ -159,9 +171,15 @@ public class Insertion
         {
             array[i] = StdRandom.uniform(20);
         }
+        System.out.println("Original array: ");
         show(array);
 
+        indexArray = indexSort(array);
+        System.out.println("Index array: ");
+        show(indexArray);
+
         Insertion.sort(array);
+        System.out.println("Sorted array: ");
         show(array);
     }
 }
