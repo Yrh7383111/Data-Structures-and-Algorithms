@@ -4,6 +4,7 @@
       <w>bitonic</w>
       <w>exch</w>
       <w>hsorted</w>
+      <w>nlog</w>
       <w>perc</w>
       <w>stddev</w>
       <w>unremoved</w>

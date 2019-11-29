@@ -34,7 +34,7 @@ public class Insertion
         {
             // Transitivity of total order
             for (int j = i; j > 0 && less(a[j], a[j-1]); j--)
-                exch(a, j, j-1);
+                exch(a, j, j - 1);
 
             assert isSorted(a, 0, i);
         }
@@ -152,7 +152,7 @@ public class Insertion
         System.out.println();
     }
 
-    private static void show(int[] a)
+    public static void show(int[] a)
     {
         for (int element : a)
             StdOut.print(element + " ");
@@ -174,14 +174,14 @@ public class Insertion
             array[i] = StdRandom.uniform(20);
         }
         System.out.println("Original array: ");
-        show(array);
+        Insertion.show(array);
 
         indexArray = indexSort(array);
         System.out.println("Index array: ");
-        show(indexArray);
+        Insertion.show(indexArray);
 
         Insertion.sort(array);
         System.out.println("Insertion sorted array: ");
-        show(array);
+        Insertion.show(array);
     }
 }

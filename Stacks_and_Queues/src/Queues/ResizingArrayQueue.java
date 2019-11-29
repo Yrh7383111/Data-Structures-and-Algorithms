@@ -77,7 +77,7 @@ public class ResizingArrayQueue<Item> implements Iterable<Item>
         if (isEmpty())
             throw new NoSuchElementException("Queue underflow");
         // Else
-        Item item = s[first];                                       // --n - 1. Decrement n   2. Index into array (in order)
+        Item item = s[first];
         s[first] = null;                                            // Allow null items to be inserted.
                                                                     // Avoid "loitering": garbage collector can reclaim memory only if no outstanding references
         n--;

@@ -5,16 +5,11 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 
-/*
-Algorithm analysis:
-Best case: ~ (NlogN) compares
-Worst case: ~ N(3/2) compares
-Average case: ~ N(3/2) compares
- */
-public class Shell
+
+public class SetsIntersection
 {
     // Constructor
-    private Shell() { }
+    private SetsIntersection() { }
 
     // Rearrange the array in ascending order, using the natural order.
     public static void sort(Comparable[] a)
@@ -23,11 +18,12 @@ public class Shell
 
         // 3x+1 increment sequence:  1, 4, 13, 40, 121, 364, 1093, ...
         int h = 1;
+
         while (h < n / 3)
             h = 3 * h + 1;
 
         while (h >= 1)
-         {
+        {
             // h-sort the array
             for (int i = h; i < n; i++)
             {
@@ -88,23 +84,32 @@ public class Shell
     }
 
 
-
     public static void main(String[] args)
     {
-        // Variable
-        Integer[] array = new Integer[20];
+        // Variables
+        Integer[] a = new Integer[]{8, 10, 15, 2, 6};
+        Integer[] b = new Integer[]{9, 8, 12, 2, 15};
+        int i = 0;
+        int j = 0;
 
 
         // Operations
-        for (int i = 0; i < array.length; i++)
-        {
-            array[i] = StdRandom.uniform(20);
-        }
-        System.out.println("Original array: ");
-        Shell.show(array);
 
-        Shell.sort(array);
-        System.out.println("Shell sorted array: ");
-        Shell.show(array);
+        // Sort
+        SetsIntersection.sort(a);
+        SetsIntersection.sort(b);
+
+        while (i < a.length && j < b.length)
+        {
+            if (a[i] < b[j])
+                i++;
+            else if (a[i] > b[j])
+                j++;
+            else {
+                System.out.print(a[i] + " ");
+                i++;
+                j++;
+            }
+        }
     }
 }

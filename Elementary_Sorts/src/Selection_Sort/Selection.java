@@ -123,7 +123,7 @@ public class Selection
 
 
     // Print array to standard output
-    private static void show(Comparable[] a)
+    public static void show(Comparable[] a)
     {
         for (Comparable comparable : a)
             StdOut.print(comparable + " ");
@@ -143,9 +143,9 @@ public class Selection
         {
             array[i] = StdRandom.uniform(20);
         }
-        show(array);
+        Selection.show(array);
 
         Selection.sort(array);
-        show(array);
+        Selection.show(array);
     }
 }
