@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Insertion_Sort/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Selection_Sort/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Shell_Sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Shell_Sort/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Queues/ResizingArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Shell_Sort/SetsIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Shell_Sort/SetsIntersection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +72,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetsIntersection">
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Insertion_Sort.Insertion" />
+  <component name="RunManager" selected="Application.Permutation">
+    <configuration name="KnuthShuffling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shuffling.KnuthShuffling" />
       <module name="Elementary_Sorts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Insertion_Sort.*" />
+          <option name="PATTERN" value="Shuffling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnuthShuffling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shuffling.KnuthShuffling" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shell_Sort.Permutation" />
       <module name="Elementary_Sorts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Shuffling.*" />
+          <option name="PATTERN" value="Shell_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Insertion" />
       <item itemvalue="Application.ShellBars" />
       <item itemvalue="Application.Shell" />
       <item itemvalue="Application.KnuthShuffling" />
       <item itemvalue="Application.SetsIntersection" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.SetsIntersection" />
         <item itemvalue="Application.KnuthShuffling" />
         <item itemvalue="Application.Shell" />
         <item itemvalue="Application.ShellBars" />
-        <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +186,7 @@
       <workItem from="1574988447057" duration="6000" />
       <workItem from="1574988477152" duration="59000" />
       <workItem from="1574988569294" duration="809000" />
-      <workItem from="1574990219913" duration="3678000" />
+      <workItem from="1574990219913" duration="4928000" />
     </task>
     <servers />
   </component>
@@ -212,38 +207,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="129" key="GridCell.Tab.0.bottom" timestamp="1574994115507">
+    <state x="240" y="64" key="#Project_Structure" timestamp="1574999952570">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574994115507" />
-    <state width="1238" height="129" key="GridCell.Tab.0.center" timestamp="1574994115506">
+    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1574999952570" />
+    <state width="1238" height="129" key="GridCell.Tab.0.bottom" timestamp="1575001558256">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="129" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1574994115506" />
-    <state width="1238" height="129" key="GridCell.Tab.0.left" timestamp="1574994115505">
+    <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575001558256" />
+    <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
+    <state width="1238" height="129" key="GridCell.Tab.0.center" timestamp="1575001558254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1574994115505" />
-    <state width="1238" height="129" key="GridCell.Tab.0.right" timestamp="1574994115506">
+    <state width="1238" height="129" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575001558254" />
+    <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
+    <state width="1238" height="129" key="GridCell.Tab.0.left" timestamp="1575001558253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="129" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1574994115506" />
-    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1574991843331">
+    <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575001558253" />
+    <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
+    <state width="1238" height="129" key="GridCell.Tab.0.right" timestamp="1575001558255">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574991843331" />
-    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1574991843330">
+    <state width="1238" height="129" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575001558255" />
+    <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1574999894492">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1574991843330" />
-    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1574991843329">
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574999894492" />
+    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1574999894490">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1574991843329" />
-    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1574991843330">
+    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1574999894490" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1574999894489">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574991843330" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1574999894489" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1574999894491">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574999894491" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1574988538658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

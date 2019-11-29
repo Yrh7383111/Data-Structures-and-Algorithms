@@ -5,10 +5,21 @@ import edu.princeton.cs.algs4.StdOut;
 
 
 
-public class SetsIntersection
+public class Permutation
 {
     // Constructor
-    private SetsIntersection() { }
+    private Permutation() { }
+
+    // Determine if permutation
+    public static boolean isPermutation(Comparable[] a, Comparable[] b)
+    {
+        for (int i = 0; i < a.length; i++)
+        {
+            if (a[i] != b[i])
+                return false;
+        }
+        return true;
+    }
 
     // Rearrange the array in ascending order, using the natural order.
     public static void sort(Comparable[] a)
@@ -87,9 +98,7 @@ public class SetsIntersection
     {
         // Variables
         Integer[] a = new Integer[]{8, 10, 15, 2, 6};
-        Integer[] b = new Integer[]{9, 8, 12, 2, 15};
-        int i = 0;
-        int j = 0;
+        Integer[] b = new Integer[]{6, 8, 10, 2, 15};
 
 
         // Operations
@@ -98,17 +107,6 @@ public class SetsIntersection
         SetsIntersection.sort(a);
         SetsIntersection.sort(b);
 
-        while (i < a.length && j < b.length)
-        {
-            if (a[i] < b[j])
-                i++;
-            else if (a[i] > b[j])
-                j++;
-            else {
-                System.out.print(a[i] + " ");
-                i++;
-                j++;
-            }
-        }
+        System.out.println(isPermutation(a, b));
     }
 }
