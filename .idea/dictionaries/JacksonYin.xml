@@ -1,11 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="JacksonYin">
     <words>
+      <w>arraycopy</w>
       <w>bitonic</w>
       <w>exch</w>
       <w>hsorted</w>
+      <w>mergesort</w>
       <w>nlog</w>
       <w>perc</w>
+      <w>precompute</w>
       <w>stddev</w>
       <w>unremoved</w>
       <w>wqupc</w>
