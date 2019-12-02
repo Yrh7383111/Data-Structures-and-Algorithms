@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/Merge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Yrh7383111/Data-Structures-and-Algorithms.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1TRadR25iTMdDJ3xygDq0jJn5w9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,35 +81,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Merge">
-    <configuration name="DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dutch_National_Flag.DutchNationalFlag" />
-      <module name="Elementary_Sorts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dutch_National_Flag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Merge_Sort.Merge" />
-      <module name="Merge_Sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Merge_Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Merge_Sort.MergeBars" />
+  <component name="RunManager">
+    <configuration name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Merge_Sort.MergeBU" />
       <module name="Merge_Sort" />
       <extension name="coverage">
         <pattern>
@@ -114,9 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.MergeBars" />
-        <item itemvalue="Application.DutchNationalFlag" />
+        <item itemvalue="Application.MergeBU" />
       </list>
     </recent_temporary>
   </component>
@@ -176,54 +157,54 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1574999952570" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575042620866">
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575306740341">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575042620866" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575306740341" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1575043705548">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575043705548" />
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1575153689285">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1575306751747">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575153689285" />
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575306751747" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1575153689284">
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1575306751746">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575153689284" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575306751746" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1575153689283">
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1575306751745">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575153689283" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575306751745" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1575153689285">
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1575306751746">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575153689285" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575306751746" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
-    <state width="1238" height="258" key="GridCell.Tab.1.bottom" timestamp="1575153319515">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575303410411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575153319515" />
-    <state width="1238" height="258" key="GridCell.Tab.1.center" timestamp="1575153319514">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575303410411" />
+    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1575303410410">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575153319514" />
-    <state width="1238" height="258" key="GridCell.Tab.1.left" timestamp="1575153319513">
+    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575303410410" />
+    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1575303410410">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575153319513" />
-    <state width="1238" height="258" key="GridCell.Tab.1.right" timestamp="1575153319514">
+    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575303410410" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1575303410411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575153319514" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575303410411" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1574988538658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

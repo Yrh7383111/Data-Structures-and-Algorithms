@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 /*
 Algorithm analysis:
-Best case: ~ (NlogN) compares
+Best case: ~ (NlogN) compares based on 3x+1 increments
 Worst case: ~ N(3/2) compares
 Average case: ~ N(3/2) compares
  */

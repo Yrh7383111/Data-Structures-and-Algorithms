@@ -32,7 +32,7 @@ public class Merge
         assert isSorted(src, lo, mid);
         assert isSorted(src, mid+1, hi);
 
-        int i = lo, j = mid+1;
+        int i = lo, j = mid + 1;
         for (int k = lo; k <= hi; k++)
         {
             if (i > mid)                                                            // If the subarray starting with index i is exhausted
@@ -61,7 +61,7 @@ public class Merge
         }
 
         // Divide and conquer
-        // Divide the entire array into many small pieces with size 7
+        // Divide the entire array into a small piece with size 7
         int mid = lo + (hi - lo) / 2;
         sort(dst, src, lo, mid);
         sort(dst, src, mid+1, hi);
