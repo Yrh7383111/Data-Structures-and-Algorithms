@@ -11,7 +11,7 @@ import java.util.Comparator;
 /*
 Algorithm analysis:
 Best case: ~ ½ (NlgN) compares
-Worst case: ~ (NlgN) compares, 6 (NlgN)
+Worst case: ~ (NlgN) compares, 6 (NlgN) array accesses
 Average case: ~ (NlgN) compares
  */
 public class Merge
