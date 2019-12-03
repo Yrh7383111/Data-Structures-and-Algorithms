@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/MergeBU.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/MergeBU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Stacks_and_Queues/src/Stack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,11 +75,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points" />
       <recent name="$PROJECT_DIR$/Stacks_and_Queues/src/Stack" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Deque">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deques_and_Randomized_Queues.Deque" />
+      <module name="Stacks_and_Queues" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Deques_and_Randomized_Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Merge_Sort.MergeBU" />
       <module name="Merge_Sort" />
@@ -96,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deque" />
         <item itemvalue="Application.MergeBU" />
       </list>
     </recent_temporary>
@@ -132,6 +146,7 @@
       <workItem from="1574988477152" duration="59000" />
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
+      <workItem from="1575341709225" duration="4782000" />
     </task>
     <servers />
   </component>
@@ -160,50 +175,50 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575306740341" />
-    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1575043705548">
+    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1575390326228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575043705548" />
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1575306751747">
+    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575390326228" />
+    <state width="1238" height="208" key="GridCell.Tab.0.bottom" timestamp="1575341705102">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575306751747" />
+    <state width="1238" height="208" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575341705102" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1575306751746">
+    <state width="1238" height="208" key="GridCell.Tab.0.center" timestamp="1575341705101">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575306751746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575341705101" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1575306751745">
+    <state width="1238" height="208" key="GridCell.Tab.0.left" timestamp="1575341705101">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575306751745" />
+    <state width="1238" height="208" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575341705101" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1575306751746">
+    <state width="1238" height="208" key="GridCell.Tab.0.right" timestamp="1575341705102">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575306751746" />
+    <state width="1238" height="208" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575341705102" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575303410411">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575341705104">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575303410411" />
-    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1575303410410">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575341705104" />
+    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1575341705103">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575303410410" />
-    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1575303410410">
+    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575341705103" />
+    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1575341705103">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575303410410" />
-    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1575303410411">
+    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575341705103" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1575341705104">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575303410411" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575341705104" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1574988538658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -221,6 +236,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="34" y="23" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1575148121210" />
+    <state x="402" y="5" key="refactoring.ChangeSignatureDialog" timestamp="1575390729863">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="402" y="5" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1575390729863" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1575052727525">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
