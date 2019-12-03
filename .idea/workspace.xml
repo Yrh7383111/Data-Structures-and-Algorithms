@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/LineSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +148,7 @@
       <workItem from="1574988477152" duration="59000" />
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
-      <workItem from="1575341709225" duration="4782000" />
+      <workItem from="1575341709225" duration="10893000" />
     </task>
     <servers />
   </component>

@@ -96,7 +96,6 @@ public class Point implements Comparable<Point>
             return 0;
         else
             return 1;
-
     }
 
     /**
@@ -143,6 +142,5 @@ public class Point implements Comparable<Point>
     public static void main(String[] args)
     {
         /* YOUR CODE HERE */
-
     }
 }
