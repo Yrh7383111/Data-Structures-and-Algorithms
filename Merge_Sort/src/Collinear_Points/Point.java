@@ -12,7 +12,6 @@ public class Point implements Comparable<Point>
     // Variable
     private final int x;                                                            // x-coordinate of this point
     private final int y;                                                            // y-coordinate of this point
-    public final Comparator<Point> SLOPE_ORDER = new SlopeOrder();
 
 
     // Operations
@@ -72,7 +71,7 @@ public class Point implements Comparable<Point>
         else if (this.y == that.y)
             return 0.0;
         else
-            return (double) ((y - that.y) / (x - that.x));
+            return (double) ((that.y - this.y) / (that.x - this.x));
     }
 
     /**
@@ -106,12 +105,21 @@ public class Point implements Comparable<Point>
      */
     private class SlopeOrder implements Comparator<Point>
     {
-        @Override
-        public int compare(Point o1, Point o2)
+        // Variable
+        private Point point;
+
+
+        // Constructor
+        public SlopeOrder(Point point)
         {
-            Point reference = new Point(x, y);
-            double slopeOne = reference.slopeTo(o1);
-            double slopeTwo = reference.slopeTo(o2);
+            this.point = point;
+        }
+
+        @Override
+        public int compare(Point p1, Point p2)
+        {
+            double slopeOne = this.point.slopeTo(p1);
+            double slopeTwo = this.point.slopeTo(p2);
             return Double.compare(slopeOne, slopeTwo);
         }
     }
@@ -119,7 +127,7 @@ public class Point implements Comparable<Point>
     public Comparator<Point> slopeOrder()
     {
         /* YOUR CODE HERE */
-        return new SlopeOrder();
+        return new SlopeOrder(this);
     }
 
     /**

@@ -1,12 +1,11 @@
 package Collinear_Points;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 
 
-public class BruteCollinearPoints
+public class FastCollinearPoints
 {
     // Variable
     private LineSegment[] lineSegments;
@@ -14,8 +13,8 @@ public class BruteCollinearPoints
 
     // Operations
 
-    // Find all line segments containing 4 points
-    public BruteCollinearPoints(Point[] points)
+    // Finds all line segments containing 4 or more points
+    public FastCollinearPoints(Point[] points)
     {
         // Corner case
         if (points == null)
@@ -23,9 +22,7 @@ public class BruteCollinearPoints
 
 
         // Variables
-        ArrayList<LineSegment> arrayList = new ArrayList<LineSegment>();
         Point[] sortedPoints = points.clone();
-
         Arrays.sort(sortedPoints);
 
 
@@ -33,25 +30,8 @@ public class BruteCollinearPoints
         if (checkPoints(sortedPoints) || checkDuplicates(sortedPoints))
             throw new  IllegalArgumentException();
         // Else
-        final int size = points.length;
 
-        for (int p = 0; p < size - 3; p++)
-        {
-            for (int q = p + 1; q < size - 2; q++)
-            {
-                for (int r = q + 1; r < size - 1; r++)
-                {
-                    for (int s = r + 1; s < size; s++)
-                    {
-                        // Transitivity
-                        if (sortedPoints[p].slopeTo(sortedPoints[q]) == sortedPoints[p].slopeTo(sortedPoints[r]) &&
-                                sortedPoints[p].slopeTo(sortedPoints[r]) == sortedPoints[p].slopeTo(sortedPoints[s]))
-                            arrayList.add(new LineSegment(points[p], points[s]));
-                    }
-                }
-            }
-        }
-        lineSegments = arrayList.toArray(new LineSegment[0]);
+
     }
 
     // Number of line segments
@@ -63,7 +43,6 @@ public class BruteCollinearPoints
     // Line segments
     public LineSegment[] segments()
     {
-        // Copy of the original array
         return lineSegments.clone();
     }
 

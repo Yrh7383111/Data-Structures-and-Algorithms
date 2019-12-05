@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/LineSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/LineSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/BruteCollinearPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/BruteCollinearPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Collinear_Points/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,40 +84,6 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Deque">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Deques_and_Randomized_Queues.Deque" />
-      <module name="Stacks_and_Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Deques_and_Randomized_Queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeBU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Merge_Sort.MergeBU" />
-      <module name="Merge_Sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Merge_Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Deque" />
-        <item itemvalue="Application.MergeBU" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -148,7 +116,7 @@
       <workItem from="1574988477152" duration="59000" />
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
-      <workItem from="1575341709225" duration="10893000" />
+      <workItem from="1575341709225" duration="17410000" />
     </task>
     <servers />
   </component>
@@ -173,14 +141,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1574999952570" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575306740341">
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575418816409">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575306740341" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575418816409" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1575390326228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575390326228" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1575475644667">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1575475644667" />
     <state width="1238" height="208" key="GridCell.Tab.0.bottom" timestamp="1575341705102">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
