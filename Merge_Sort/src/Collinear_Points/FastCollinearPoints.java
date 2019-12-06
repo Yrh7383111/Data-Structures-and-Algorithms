@@ -56,7 +56,7 @@ public class FastCollinearPoints
                     pointsContainer.add(sortedSlope[counter++]);
 
 
-                if (pointsContainer.size() >= 3 && element.compareTo(pointsContainer.get(0)) < 0);
+                if (pointsContainer.size() >= 3 && element.compareTo(pointsContainer.get(0)) < 0)
                 {
                     Point firstPoint = element;
                     Point lastPoint = pointsContainer.get(pointsContainer.size() - 1);
@@ -64,7 +64,7 @@ public class FastCollinearPoints
                 }
             }
         }
-        lineSegments = collinearLineSegments.toArray(new LineSegment[0]);
+        lineSegments = collinearLineSegments.toArray(new LineSegment[collinearLineSegments.size()]);
     }
 
     // Number of line segments
