@@ -26,6 +26,7 @@ public class BruteCollinearPoints
         ArrayList<LineSegment> arrayList = new ArrayList<LineSegment>();
         Point[] sortedPoints = points.clone();
 
+        // Mergesort
         Arrays.sort(sortedPoints);
 
 
