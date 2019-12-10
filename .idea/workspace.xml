@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/src/Merge_Sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/tests/tale.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Deques_and_Randomized_Queues/tests/tale.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -80,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InteractivePercolationVisualizer">
+  <component name="RunManager" selected="Application.QuickBars">
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="percolation.InteractivePercolationVisualizer" />
       <module name="Union_Find" />
@@ -120,8 +125,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quick_Sort.Quick" />
+      <module name="Quick_Sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Quick_Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quick_Sort.QuickBars" />
+      <module name="Quick_Sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Quick_Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickBars" />
+        <item itemvalue="Application.Quick" />
         <item itemvalue="Application.InteractivePercolationVisualizer" />
         <item itemvalue="Application.PercolationVisualizer" />
         <item itemvalue="Application.KnuthShuffling" />
@@ -160,7 +193,8 @@
       <workItem from="1574988477152" duration="59000" />
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
-      <workItem from="1575341709225" duration="26606000" />
+      <workItem from="1575341709225" duration="28282000" />
+      <workItem from="1575941088076" duration="5190000" />
     </task>
     <servers />
   </component>
@@ -193,32 +227,36 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575390326228" />
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575941048012">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1575941048012" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1575475644667">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1575475644667" />
-    <state width="1238" height="117" key="GridCell.Tab.0.bottom" timestamp="1575657265789">
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1576008388519">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="117" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575657265789" />
+    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576008388519" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="117" key="GridCell.Tab.0.center" timestamp="1575657265787">
+    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1576008388517">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="117" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575657265787" />
+    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576008388517" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="117" key="GridCell.Tab.0.left" timestamp="1575657265787">
+    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1576008388516">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="117" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575657265787" />
+    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576008388516" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="117" key="GridCell.Tab.0.right" timestamp="1575657265788">
+    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1576008388518">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="117" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575657265788" />
+    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576008388518" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
     <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575341705104">
@@ -245,15 +283,15 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="614" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1575052703594" />
-    <state x="317" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1574988572022">
+    <state x="317" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1575941088123">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1574988572022" />
+    <state x="317" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1575941088123" />
     <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1574988451537" />
-    <state x="34" y="23" width="1246" height="713" key="new project wizard" timestamp="1575148121210">
+    <state x="34" y="23" width="1246" height="713" key="new project wizard" timestamp="1575941026942">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="34" y="23" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1575148121210" />
+    <state x="34" y="23" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1575941026942" />
     <state x="402" y="5" key="refactoring.ChangeSignatureDialog" timestamp="1575390729863">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -262,5 +300,16 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1575052727525" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Union_Find/src/percolation/Percolation.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
