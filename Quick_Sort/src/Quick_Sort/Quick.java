@@ -1,12 +1,18 @@
 package Quick_Sort;
 
 
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 
 
+/*
+Algorithm analysis:
+Best case: ~ (NlgN) compares
+Worst case: ~ ~ ½ N(2) compares
+Average case: ~ 1.39 (NlgN) compares
+              39% more compares than mergesort, but faster than mergesort in practice because of less data movement.
+ */
 public class Quick
 {
 
@@ -75,6 +81,8 @@ public class Quick
     }
 
     // Given an array of n items, find the kth smallest item
+    // Quick-select takes linear time on average.
+    // n + n/2 + n/4 + … + 1 ~ (2n) compares
     public static Comparable select(Comparable[] a, int k)
     {
         if (k < 0 || k >= a.length)
