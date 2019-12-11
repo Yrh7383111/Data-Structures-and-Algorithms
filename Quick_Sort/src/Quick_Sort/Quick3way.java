@@ -7,6 +7,13 @@ import edu.princeton.cs.algs4.StdRandom;
 
 
 
+/*
+Algorithm analysis:
+Best case: ~ (N) compares
+Worst case: ~ ~ ½ N(2) compares
+Average case: ~ 1.39 (NlgN) compares
+              39% more compares than mergesort, but faster than mergesort in practice because of less data movement.
+ */
 public class Quick3way
 {
     // Constructor
@@ -48,6 +55,7 @@ public class Quick3way
         // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
         sort(a, lo, lt-1);
         sort(a, gt+1, hi);
+
         assert isSorted(a, lo, hi);
     }
 

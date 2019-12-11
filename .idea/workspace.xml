@@ -4,6 +4,7 @@
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,7 @@
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
       <workItem from="1575341709225" duration="28282000" />
-      <workItem from="1575941088076" duration="7449000" />
+      <workItem from="1575941088076" duration="13321000" />
     </task>
     <servers />
   </component>
