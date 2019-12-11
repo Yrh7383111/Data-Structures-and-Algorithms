@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/src/Dutch_National_Flag/DutchNationalFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/src/Dutch_National_Flag/DutchNationalFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quick_Sort/Quick_Sort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quick_Sort/Quick_Sort/Quick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quick_Sort/Quick_Sort/QuickBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quick_Sort/Quick_Sort/QuickBars.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="percolation.PercolationVisualizer" />
-      <module name="Union_Find" />
+    <configuration name="KthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coding_Problems.KthElement" />
+      <module name="Quick_Sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="percolation.*" />
+          <option name="PATTERN" value="Coding_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DutchNationalFlag" />
+        <item itemvalue="Application.KthElement" />
         <item itemvalue="Application.QuickBars" />
         <item itemvalue="Application.Quick" />
         <item itemvalue="Application.InteractivePercolationVisualizer" />
-        <item itemvalue="Application.PercolationVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,7 @@
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
       <workItem from="1575341709225" duration="28282000" />
-      <workItem from="1575941088076" duration="13321000" />
+      <workItem from="1575941088076" duration="15296000" />
     </task>
     <servers />
   </component>
@@ -213,10 +214,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="64" key="#Project_Structure" timestamp="1575660278218">
+    <state x="240" y="64" key="#Project_Structure" timestamp="1576091329412">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1575660278218" />
+    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576091329412" />
     <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575418816409">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -233,28 +234,28 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1575475644667" />
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1576009316485">
+    <state width="1238" height="118" key="GridCell.Tab.0.bottom" timestamp="1576093783744">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576009316485" />
+    <state width="1238" height="118" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576093783744" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1576009316484">
+    <state width="1238" height="118" key="GridCell.Tab.0.center" timestamp="1576093783744">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576009316484" />
+    <state width="1238" height="118" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576093783744" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1576009316483">
+    <state width="1238" height="118" key="GridCell.Tab.0.left" timestamp="1576093783743">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576009316483" />
+    <state width="1238" height="118" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576093783743" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1576009316484">
+    <state width="1238" height="118" key="GridCell.Tab.0.right" timestamp="1576093783744">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576009316484" />
+    <state width="1238" height="118" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576093783744" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
     <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575341705104">

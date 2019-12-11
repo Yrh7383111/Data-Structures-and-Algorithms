@@ -44,27 +44,12 @@ public class DutchNationalFlag
         // Operations
         while (middle <= high)
         {
-            switch (array[middle])
-            {
-                case "Red":
-                {
-                    swap(array, low, middle);
-                    low++;
-                    middle++;
-                    break;
-                }
-                case "White":
-                {
-                    middle++;
-                    break;
-                }
-                case "Blue":
-                {
-                    swap(array, middle, high);
-                    high--;
-                    break;
-                }
-            }
+            if (array[middle].equals("Red"))
+                swap(array, low++, middle++);
+            else if (array[middle].equals("White"))
+                middle++;
+            else
+                swap(array, middle, high--);
         }
     }
 
