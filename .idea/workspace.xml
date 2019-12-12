@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Coding_Problems/KthElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Coding_Problems/KthElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quick_Sort/Coding_Problems/KthElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quick_Sort/Coding_Problems/KthElement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +82,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="DutchNationalFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dutch_National_Flag.DutchNationalFlag" />
-      <module name="Elementary_Sorts" />
+  <component name="RunManager" selected="Application.OrderedArrayMaxPQ">
+    <configuration name="OrderedArrayMaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Elementary_PQ.OrderedArrayMaxPQ" />
+      <module name="Priority_Queues" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dutch_National_Flag.*" />
+          <option name="PATTERN" value="Elementary_PQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,51 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding_Problems.KthElement" />
-      <module name="Quick_Sort" />
+    <configuration name="UnorderedArrayMaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Elementary_PQ.UnorderedArrayMaxPQ" />
+      <module name="Priority_Queues" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Coding_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding_Problems.MajorityElement" />
-      <module name="Quick_Sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Coding_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quick_Sort.Quick" />
-      <module name="Quick_Sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Quick_Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quick_Sort.QuickBars" />
-      <module name="Quick_Sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Quick_Sort.*" />
+          <option name="PATTERN" value="Elementary_PQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.KthElement" />
-        <item itemvalue="Application.DutchNationalFlag" />
-        <item itemvalue="Application.QuickBars" />
-        <item itemvalue="Application.Quick" />
+        <item itemvalue="Application.OrderedArrayMaxPQ" />
+        <item itemvalue="Application.UnorderedArrayMaxPQ" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +149,7 @@
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
       <workItem from="1575341709225" duration="28282000" />
-      <workItem from="1575941088076" duration="17383000" />
+      <workItem from="1575941088076" duration="20432000" />
     </task>
     <servers />
   </component>
@@ -213,14 +170,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="64" key="#Project_Structure" timestamp="1576091329412">
+    <state x="240" y="64" key="#Project_Structure" timestamp="1576181410517">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576091329412" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575418816409">
+    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576181410517" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576113991936">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1575418816409" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1576113991936" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1575390326228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -233,46 +190,46 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1575475644667" />
-    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1576113558782">
+    <state width="1238" height="120" key="GridCell.Tab.0.bottom" timestamp="1576183255244">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576113558782" />
+    <state width="1238" height="120" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576183255244" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1576113558780">
+    <state width="1238" height="120" key="GridCell.Tab.0.center" timestamp="1576183255242">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576113558780" />
+    <state width="1238" height="120" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576183255242" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1576113558779">
+    <state width="1238" height="120" key="GridCell.Tab.0.left" timestamp="1576183255236">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576113558779" />
+    <state width="1238" height="120" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576183255236" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1576113558781">
+    <state width="1238" height="120" key="GridCell.Tab.0.right" timestamp="1576183255243">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="167" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576113558781" />
+    <state width="1238" height="120" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576183255243" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1575341705104">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1576181963443">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575341705104" />
-    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1575341705103">
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576181963443" />
+    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1576181963441">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575341705103" />
-    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1575341705103">
+    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1576181963441" />
+    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1576181963441">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575341705103" />
-    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1575341705104">
+    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1576181963441" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1576181963442">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575341705104" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1576181963442" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1574988538658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -286,10 +243,10 @@
     </state>
     <state x="317" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1575941088123" />
     <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1574988451537" />
-    <state x="34" y="23" width="1246" height="713" key="new project wizard" timestamp="1575941026942">
+    <state x="11" y="32" width="1246" height="713" key="new project wizard" timestamp="1576181131436">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="34" y="23" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1575941026942" />
+    <state x="11" y="32" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1576181131436" />
     <state x="402" y="5" key="refactoring.ChangeSignatureDialog" timestamp="1575390729863">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
