@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class KthElement
 {
-    public static double findKthElement(double[] a, int sizeA, double[] b, int sizeB, int k)
+    public static int findKthElement(int[] a, int sizeA, int[] b, int sizeB, int k)
     {
         if (k < 1 || k > (sizeA + sizeB))
             return -1;
@@ -27,11 +27,11 @@ public class KthElement
             // Operations
             if (a[i - 1] > b[j - 1])
             {
-                double[] temp = Arrays.copyOfRange(b, j, sizeB);
+                int[] temp = Arrays.copyOfRange(b, j, sizeB);
                 return findKthElement(a, sizeA, temp, (sizeB - j), (k - j));
             }
             else {
-                double[] temp = Arrays.copyOfRange(a, i, sizeA);
+                int[] temp = Arrays.copyOfRange(a, i, sizeA);
                 return findKthElement(temp, (sizeA - i), b, sizeB, (k - i));
             }
         }
@@ -40,13 +40,13 @@ public class KthElement
 
     public static void main(String[] args)
     {
-        double[] a = { 2, 3, 6, 7, 9 };
-        double[] b = { 1, 4, 8, 10 };
+        int[] a = { 2, 3, 6, 7, 9 };
+        int[] b = { 1, 4, 8, 10 };
         int sizeA = a.length;
         int sizeB = b.length;
-        int k = 5;
+        int k = 7;
 
-        double result = findKthElement(a, sizeA, b, sizeB, k);
+        int result = findKthElement(a, sizeA, b, sizeB, k);
         if (result == -1)
             System.out.println("Invalid query");
         else
