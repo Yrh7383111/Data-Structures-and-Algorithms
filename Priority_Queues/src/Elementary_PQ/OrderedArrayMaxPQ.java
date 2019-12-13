@@ -78,5 +78,4 @@ public class OrderedArrayMaxPQ<Key extends Comparable<Key>>
         while (!pq.isEmpty())
             System.out.print(pq.delMax() + " ");
     }
-
 }
