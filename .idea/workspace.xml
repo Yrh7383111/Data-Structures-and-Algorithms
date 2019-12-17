@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MaxPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MaxPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MaxPQ.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,22 +82,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Heap">
-    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap_Sort.Heap" />
-      <module name="Priority_Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap_Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_Heap.MaxPQ" />
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_Heap.HelloWorld" />
       <module name="Priority_Queues" />
       <extension name="coverage">
         <pattern>
@@ -112,38 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderedArrayMaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Elementary_PQ.OrderedArrayMaxPQ" />
+    <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap_Sort.Transaction" />
       <module name="Priority_Queues" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Elementary_PQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Three_Sum.ThreeSum" />
-      <module name="Analysis_of_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Three_Sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnorderedArrayMaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Elementary_PQ.UnorderedArrayMaxPQ" />
-      <module name="Priority_Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elementary_PQ.*" />
+          <option name="PATTERN" value="Heap_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heap" />
-        <item itemvalue="Application.MaxPQ" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.OrderedArrayMaxPQ" />
-        <item itemvalue="Application.UnorderedArrayMaxPQ" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Transaction" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +149,7 @@
       <workItem from="1574988569294" duration="809000" />
       <workItem from="1574990219913" duration="16456000" />
       <workItem from="1575341709225" duration="28282000" />
-      <workItem from="1575941088076" duration="30101000" />
+      <workItem from="1575941088076" duration="32263000" />
     </task>
     <servers />
   </component>
@@ -219,10 +174,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576181410517" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576113991936">
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576559294795">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1576113991936" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1576559294795" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1576201626881">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -235,28 +190,28 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1575475644667" />
-    <state width="1238" height="146" key="GridCell.Tab.0.bottom" timestamp="1576554892695">
+    <state width="1238" height="154" key="GridCell.Tab.0.bottom" timestamp="1576560838504">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="146" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576554892695" />
+    <state width="1238" height="154" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576560838504" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="146" key="GridCell.Tab.0.center" timestamp="1576554892694">
+    <state width="1238" height="154" key="GridCell.Tab.0.center" timestamp="1576560838500">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="146" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576554892694" />
+    <state width="1238" height="154" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576560838500" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="146" key="GridCell.Tab.0.left" timestamp="1576554892693">
+    <state width="1238" height="154" key="GridCell.Tab.0.left" timestamp="1576560838497">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="146" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576554892693" />
+    <state width="1238" height="154" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576560838497" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="146" key="GridCell.Tab.0.right" timestamp="1576554892695">
+    <state width="1238" height="154" key="GridCell.Tab.0.right" timestamp="1576560838503">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="146" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576554892695" />
+    <state width="1238" height="154" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576560838503" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
     <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1576256837593">
