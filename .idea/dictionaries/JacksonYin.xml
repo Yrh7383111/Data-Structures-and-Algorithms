@@ -3,6 +3,9 @@
     <words>
       <w>arraycopy</w>
       <w>bitonic</w>
+      <w>drdr</w>
+      <w>dvdr</w>
+      <w>dvdv</w>
       <w>exch</w>
       <w>hsorted</w>
       <w>mergesort</w>
