@@ -9,7 +9,7 @@ public class Board
 {
     // Variables
     private int[][] board;
-    Queue<Board> queue;
+    private Queue<Board> queue;
     private int dimension;
     private int hammingDistance;
     private int manhattanDistance;
