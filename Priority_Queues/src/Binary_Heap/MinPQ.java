@@ -200,7 +200,7 @@ public class MinPQ<Key> implements Iterable<Key>
         while (2 * k <= n)
         {
             // Variable
-            int j = 2*k;
+            int j = 2 * k;
 
 
             // Operations
@@ -337,7 +337,7 @@ public class MinPQ<Key> implements Iterable<Key>
         {
             a[i] = StdRandom.uniform(20);
         }
-        MaxPQ<Integer> pq = new MaxPQ<Integer>(a);
+        MinPQ<Integer> pq = new MinPQ<Integer>(a);
 
 
         // Operations

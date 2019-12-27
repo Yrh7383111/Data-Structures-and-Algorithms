@@ -40,8 +40,8 @@ public class KthElement
 
     public static void main(String[] args)
     {
-        int[] a = { 2, 3, 6, 7, 9 };
-        int[] b = { 1, 4, 8, 10 };
+        int[] a = new int[]{ 2, 3, 6, 7, 9 };
+        int[] b = new int[]{ 1, 4, 8, 10 };
         int sizeA = a.length;
         int sizeB = b.length;
         int k = 7;

@@ -9,6 +9,7 @@
       <w>exch</w>
       <w>hsorted</w>
       <w>mergesort</w>
+      <w>mlogn</w>
       <w>nlog</w>
       <w>perc</w>
       <w>precompute</w>
