@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Binary_Heap/MinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Binary_Heap/MinPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Coding_Problems/KthElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Coding_Problems/KthElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Binary_Heap/MinPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/DynamicMedian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/DynamicMedian.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/EventDriven_Simulation/CollisionSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/EventDriven_Simulation/CollisionSystem.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,13 +97,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollisionSystem">
-    <configuration name="CollisionSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EventDriven_Simulation.CollisionSystem" />
-      <module name="Priority_Queues" />
+  <component name="RunManager" selected="Application.MedianHeap">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Weighted_Quick_Union_PC.Main" />
+      <module name="Union_Find" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EventDriven_Simulation.*" />
+          <option name="PATTERN" value="Weighted_Quick_Union_PC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding_problems.DynamicMedian" />
+    <configuration name="MedianHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coding_problems.MedianHeap" />
       <module name="Priority_Queues" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Coding_problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap_Sort.Heap" />
-      <module name="Priority_Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,33 +137,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight_Pizzle.Solver" />
-      <module name="Priority_Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Eight_Pizzle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Solver" />
-      <item itemvalue="Application.Heap" />
-      <item itemvalue="Application.MinPQ" />
-      <item itemvalue="Application.DynamicMedian" />
-      <item itemvalue="Application.CollisionSystem" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollisionSystem" />
-        <item itemvalue="Application.Solver" />
-        <item itemvalue="Application.DynamicMedian" />
+        <item itemvalue="Application.MedianHeap" />
         <item itemvalue="Application.MinPQ" />
-        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +179,9 @@
       <workItem from="1574990219913" duration="16456000" />
       <workItem from="1575341709225" duration="28282000" />
       <workItem from="1575941088076" duration="33240000" />
-      <workItem from="1576633914561" duration="29500000" />
+      <workItem from="1576633914561" duration="29711000" />
+      <workItem from="1577488471839" duration="528000" />
+      <workItem from="1577566959851" duration="7144000" />
     </task>
     <servers />
   </component>
@@ -244,48 +210,48 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576637546412" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576776548052">
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577488582538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1576776548052" />
+    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1577488582538" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1576637201211">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1576637201211" />
-    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575941048012">
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577488391733">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1575941048012" />
+    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1577488391733" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1577473958723">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1577473898704" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.716@0.23.1280.716" timestamp="1577473958723" />
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1577474270924">
+    <state width="1238" height="156" key="GridCell.Tab.0.bottom" timestamp="1577575882609">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577474270924" />
+    <state width="1238" height="156" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577575882609" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="516" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1576866481136" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1577474270922">
+    <state width="1238" height="156" key="GridCell.Tab.0.center" timestamp="1577575882607">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577474270922" />
+    <state width="1238" height="156" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577575882607" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="516" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1576866481132" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1577474270921">
+    <state width="1238" height="156" key="GridCell.Tab.0.left" timestamp="1577575882607">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577474270921" />
+    <state width="1238" height="156" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577575882607" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
     <state width="1238" height="516" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1576866481131" />
-    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1577474270923">
+    <state width="1238" height="156" key="GridCell.Tab.0.right" timestamp="1577575882608">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577474270923" />
+    <state width="1238" height="156" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577575882608" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="516" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1576866481134" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />
@@ -313,10 +279,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="614" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1575052703594" />
-    <state x="317" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1576633915101">
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1577566959250">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="211" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1576633915101" />
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1577566959250" />
     <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1574988451537" />
     <state x="342" y="294" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576637508904">
       <screen x="0" y="0" width="1280" height="800" />
