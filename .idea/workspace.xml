@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/DynamicMedian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/DynamicMedian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/EventDriven_Simulation/CollisionSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/EventDriven_Simulation/CollisionSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <workItem from="1575941088076" duration="33240000" />
       <workItem from="1576633914561" duration="29711000" />
       <workItem from="1577488471839" duration="528000" />
-      <workItem from="1577566959851" duration="7144000" />
+      <workItem from="1577566959851" duration="7714000" />
     </task>
     <servers />
   </component>
@@ -227,31 +225,31 @@
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1577473898704" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.716@0.23.1280.716" timestamp="1577473958723" />
-    <state width="1238" height="156" key="GridCell.Tab.0.bottom" timestamp="1577575882609">
+    <state width="1238" height="133" key="GridCell.Tab.0.bottom" timestamp="1577576558182">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="156" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577575882609" />
+    <state width="1238" height="133" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577576558182" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="516" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1576866481136" />
     <state width="1238" height="129" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1574999991308" />
-    <state width="1238" height="156" key="GridCell.Tab.0.center" timestamp="1577575882607">
+    <state width="1238" height="133" key="GridCell.Tab.0.center" timestamp="1577576558180">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="156" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577575882607" />
+    <state width="1238" height="133" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577576558180" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="516" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1576866481132" />
     <state width="1238" height="129" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1574999991305" />
-    <state width="1238" height="156" key="GridCell.Tab.0.left" timestamp="1577575882607">
+    <state width="1238" height="133" key="GridCell.Tab.0.left" timestamp="1577576558180">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="156" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577575882607" />
+    <state width="1238" height="133" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577576558180" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
     <state width="1238" height="516" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1576866481131" />
-    <state width="1238" height="156" key="GridCell.Tab.0.right" timestamp="1577575882608">
+    <state width="1238" height="133" key="GridCell.Tab.0.right" timestamp="1577576558181">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="156" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577575882608" />
+    <state width="1238" height="133" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577576558181" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="516" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1576866481134" />
     <state width="1238" height="129" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1574999991306" />

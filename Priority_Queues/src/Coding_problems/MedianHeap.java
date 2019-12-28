@@ -3,6 +3,7 @@ package Coding_problems;
 
 import Binary_Heap.MaxPQ;
 import Binary_Heap.MinPQ;
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Arrays;
@@ -21,28 +22,17 @@ public class MedianHeap
 
 
     // Operations
-    /**
-     * Constructor for a MedianHeap, to dynamically generate median.
-     */
     public MedianHeap()
     {
         minheap = new MinPQ<Integer>();
         maxheap = new MaxPQ<Integer>();
     }
 
-    /**
-     * Returns empty if no median i.e, no input
-     * @return
-     */
     public boolean isEmpty()
     {
         return (maxheap.size() == 0 && minheap.size() == 0);
     }
 
-    /**
-     * Inserts into MedianHeap to update the median accordingly
-     * @param n
-     */
     public void insert(int n)
     {
         // Initialize if empty
@@ -50,7 +40,7 @@ public class MedianHeap
             minheap.insert(n);
         else {
             // If n is less than or equal to current median, add to maxheap
-            if (Double.compare(n, findMed()) <= 0)
+            if (Integer.compare(n, findMed()) <= 0)
                 maxheap.insert(n);
             // If n is greater than current median, add to min heap
             else
@@ -59,7 +49,7 @@ public class MedianHeap
 
         // Balance the heap
         // Absolute difference of sizes is greater than one.
-        balance();
+        balanceHeap();
     }
 
     public void deleteMed()
@@ -73,29 +63,23 @@ public class MedianHeap
             minheap.delMin();
 
         // Balance the heap
-        balance();
+        balanceHeap();
     }
 
-    /**
-     * returns the median of the numbers encountered so far
-     * @return
-     */
-    public double findMed()
+    public int findMed()
     {
         // If total size(no. of elements entered) is even OR maxheap has a larger size
         // then return the root of maxheap
         if ((maxheap.size() == minheap.size()) || (maxheap.size() > minheap.size()))
-            return (double)maxheap.max();
+            return maxheap.max();
         else
-            return (double)minheap.min();
+            return minheap.min();
     }
 
 
     // Helper functions
-    /**
-     * If number of items in one of the heap is greater than other heap by more than 1, remove the root of larger heap and add it to other heap.
-     */
-    private void balance()
+    // If number of items in one of the heap is greater than other heap by more than 1, remove the root of larger heap and add it to other heap.
+    private void balanceHeap()
     {
         // If sizes of heaps differ more than 1,
         if (Math.abs(maxheap.size() - minheap.size()) > 1)
