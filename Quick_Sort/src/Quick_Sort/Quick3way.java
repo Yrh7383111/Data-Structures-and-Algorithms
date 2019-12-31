@@ -10,7 +10,7 @@ import edu.princeton.cs.algs4.StdRandom;
 /*
 Algorithm analysis:
 Best case: ~ (N) compares
-Worst case: ~ ~ ½ N(2) compares
+Worst case: ~ ½ N(2) compares
 Average case: ~ 1.39 (NlgN) compares
               39% more compares than mergesort, but faster than mergesort in practice because of less data movement.
  */

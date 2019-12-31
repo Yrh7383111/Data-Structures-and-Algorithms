@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" filepath="$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" filepath="$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" filepath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" filepath="$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" />
       <module fileurl="file://$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" filepath="$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" filepath="$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" filepath="$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" />
