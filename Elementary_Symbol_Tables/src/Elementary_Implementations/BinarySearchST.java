@@ -181,6 +181,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>
         if (n == keys.length)
             resize(2 * keys.length);
 
+        // Shift all greater keys over.
         for (int j = n; j > i; j--)
         {
             keys[j] = keys[j - 1];
@@ -295,7 +296,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>
         if (isEmpty())
             throw new NoSuchElementException("called max() with empty symbol table");
         // Else
-        return keys[n-1];
+        return keys[n - 1];
     }
 
 
@@ -336,7 +337,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>
         if (i == 0)
             return null;
         else
-            return keys[i-1];
+            return keys[i - 1];
     }
 
 

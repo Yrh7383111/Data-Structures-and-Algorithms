@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/src/Quick_Sort/Quick3way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Symbol_Tables/src/Elementary_Implementations/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Symbol_Tables/src/Elementary_Implementations/BinarySearchST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,7 @@
       <workItem from="1575941088076" duration="33240000" />
       <workItem from="1576633914561" duration="29711000" />
       <workItem from="1577488471839" duration="528000" />
-      <workItem from="1577566959851" duration="20000000" />
+      <workItem from="1577566959851" duration="23122000" />
     </task>
     <servers />
   </component>
