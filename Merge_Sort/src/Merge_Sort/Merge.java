@@ -37,7 +37,7 @@ public class Merge
         {
             if (i > mid)                                                            // If the subarray starting with index i is exhausted
                 dst[k] = src[j++];                                                  // src[j++] - 1. src[j]  2. j++
-            else if (j > hi)                                                        // If the subarray starting with index i is exhausted
+            else if (j > hi)                                                        // If the subarray starting with index j is exhausted
                 dst[k] = src[i++];                                                  // src[i++] - 1. src[i]  2. i++
             else if (less(src[j], src[i]))
                 dst[k] = src[j++];

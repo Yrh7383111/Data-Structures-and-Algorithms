@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" filepath="$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" filepath="$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" filepath="$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" filepath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" />
       <module fileurl="file://$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" filepath="$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" />
