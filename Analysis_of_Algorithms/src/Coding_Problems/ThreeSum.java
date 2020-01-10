@@ -3,7 +3,7 @@
 You may assume that you can sort the n integers in time proportional to n^2 or better.
 */
 
-package Three_Sum;
+package Coding_Problems;
 
 
 import java.util.Arrays;

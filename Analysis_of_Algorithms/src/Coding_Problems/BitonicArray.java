@@ -1,4 +1,4 @@
-package Bitonic_Array;
+package Coding_Problems;
 
 
 
