@@ -15,10 +15,12 @@
       <w>perc</w>
       <w>precompute</w>
       <w>quicksort</w>
+      <w>resizes</w>
       <w>sortdown</w>
       <w>stddev</w>
       <w>unneccessary</w>
       <w>unremoved</w>
+      <w>vals</w>
       <w>wqupc</w>
     </words>
   </dictionary>
