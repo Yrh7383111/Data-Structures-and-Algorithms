@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Tables/src/Hash_Tables/LinearProbingHashST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/src/Hash_Tables/LinearProbingHashST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Binary_Heap/MinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Binary_Heap/MinPQ.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,7 @@
       <workItem from="1578277172876" duration="1643000" />
       <workItem from="1578342625900" duration="5122000" />
       <workItem from="1578538567525" duration="3467000" />
-      <workItem from="1578629530055" duration="3468000" />
+      <workItem from="1578629530055" duration="9950000" />
     </task>
     <servers />
   </component>
@@ -253,10 +254,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="614" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1575052703594" />
-    <state x="317" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1578280031296">
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1579210360625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1578280031296" />
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1579210360625" />
     <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1574988451537" />
     <state x="342" y="294" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578363062611">
       <screen x="0" y="0" width="1280" height="800" />

@@ -170,9 +170,9 @@ public class MinPQ<Key> implements Iterable<Key>
             throw new NoSuchElementException("Priority queue underflow");
         // Else
         Key min = pq[1];
-        exch(1, n--);                                                               // Exchange root with node at end
+        exch(1, n--);                                                                // Exchange root with node at end
         sink(1);                                                                    // Sink the new root down
-        pq[n+1] = null;                                                                 // To avoid loitering and help with garbage collection
+        pq[n + 1] = null;                                                              // To avoid loitering and help with garbage collection
 
         if ((n > 0) && (n == (pq.length - 1) / 4))
             resize(pq.length / 2);

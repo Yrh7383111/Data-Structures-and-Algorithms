@@ -121,7 +121,7 @@ public class LinearProbingHashST<Key, Value>
         }
 
         // Double table size if 50% full
-        if (n >= m/2)
+        if (n >= m / 2)
             resize(2 * m);
 
         int i;
