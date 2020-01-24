@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Merge_Sort/Merge_Sort/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Merge_Sort/Merge_Sort/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/src/Stacks/ResizingArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +196,7 @@
       <workItem from="1578342625900" duration="5122000" />
       <workItem from="1578538567525" duration="3467000" />
       <workItem from="1578629530055" duration="9950000" />
-      <workItem from="1579210248921" duration="18223000" />
+      <workItem from="1579210248921" duration="20438000" />
     </task>
     <servers />
   </component>

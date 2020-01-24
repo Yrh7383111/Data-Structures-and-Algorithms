@@ -81,7 +81,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item>
         if (isEmpty())
             throw new NoSuchElementException("Stack underflow");
         // Else
-        return s[n-1];
+        return s[n - 1];
     }
 
     //
