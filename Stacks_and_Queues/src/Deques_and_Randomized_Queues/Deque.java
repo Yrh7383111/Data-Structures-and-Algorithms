@@ -18,9 +18,9 @@ public class Deque<Item> implements Iterable<Item>
     // construct an empty deque
     public Deque()
     {
-        first = null;
-        last = null;
-        n = 0;
+        this.first = null;
+        this.last = null;
+        this.n = 0;
     }
 
     // Doubly linked-list
@@ -43,13 +43,13 @@ public class Deque<Item> implements Iterable<Item>
     // is the deque empty?
     public boolean isEmpty()
     {
-        return n == 0;
+        return this.n == 0;
     }
 
     // return the number of items on the deque
     public int size()
     {
-        return n;
+        return this.n;
     }
 
     // add the item to the front
@@ -60,17 +60,17 @@ public class Deque<Item> implements Iterable<Item>
         // Else
         if (isEmpty())
         {
-            first = new Node<Item>(item);
-            last = first;
+            this.first = new Node<Item>(item);
+            this.last = first;
         }
         else {
-            Node node = new Node<Item>(item);
-            node.next = first;
-            first.previous = node;
-            first = node;
+            Node<Item> node = new Node<Item>(item);
+            node.next = this.first;
+            this.first.previous = node;
+            this.first = node;
         }
 
-        n++;
+        this.n++;
     }
 
     // add the item to the back
@@ -81,17 +81,17 @@ public class Deque<Item> implements Iterable<Item>
         // Else
         if (isEmpty())
         {
-            last = new Node<Item>(item);
-            first = last;
+            this.last = new Node<Item>(item);
+            this.first = this.last;
         }
         else {
-            Node node = new Node<Item>(item);
-            node.previous = last;
-            last.next = node;
-            last = node;
+            Node<Item> node = new Node<Item>(item);
+            node.previous = this.last;
+            this.last.next = node;
+            this.last = node;
         }
 
-        n++;
+        this.n++;
     }
 
     // remove and return the item from the front
@@ -100,16 +100,16 @@ public class Deque<Item> implements Iterable<Item>
         if (isEmpty())
             throw new NoSuchElementException();
         // Else
-        Item item = first.item;
-        first = first.next;
+        Item item = this.first.item;
+        this.first = this.first.next;
 
-        if (first == null)
-            last = null;                                            // To avoid loitering
+        if (this.first == null)
+            this.last = null;                                            // To avoid loitering
         else {
-            first.previous = null;
+            this.first.previous = null;
         }
 
-        n--;
+        this.n--;
         return item;
     }
 
@@ -119,23 +119,23 @@ public class Deque<Item> implements Iterable<Item>
         if (isEmpty())
             throw new NoSuchElementException();
         // Else
-        Item item = last.item;
-        last = last.previous;
+        Item item = this.last.item;
+        this.last = this.last.previous;
 
-        if (last == null)
-            first = null;                                            // To avoid loitering
+        if (this.last == null)
+            this.first = null;                                            // To avoid loitering
         else {
-            last.next = null;
+            this.last.next = null;
         }
 
-        n--;
+        this.n--;
         return item;
     }
 
     // return an iterator over items in order from front to back
     public Iterator<Item> iterator()
     {
-        return new ListIterator(first);
+        return new ListIterator(this.first);
     }
 
     // An iterator, doesn't implement remove() since it's optional
@@ -154,7 +154,7 @@ public class Deque<Item> implements Iterable<Item>
         // To check if the pointer reaches the end of linked-list based queue
         public boolean hasNext()
         {
-            return current != null;
+            return this.current != null;
         }
 
         // Optional
@@ -169,8 +169,8 @@ public class Deque<Item> implements Iterable<Item>
             if (!hasNext())
                 throw new NoSuchElementException();
             // Else
-            Item item = current.item;                               // Remember the data of the node
-            current = current.next;                                 // Move the pointer to the next node
+            Item item = this.current.item;                               // Remember the data of the node
+            this.current = this.current.next;                                 // Move the pointer to the next node
             return item;
         }
     }
