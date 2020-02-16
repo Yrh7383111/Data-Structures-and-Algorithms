@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" filepath="$PROJECT_DIR$/Merge_Sort/Merge_Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" filepath="$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" filepath="$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ST_Applications/ST_Applications.iml" filepath="$PROJECT_DIR$/ST_Applications/ST_Applications.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks_and_Queues/Stacks_and_Queues.iml" filepath="$PROJECT_DIR$/Stacks_and_Queues/Stacks_and_Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Union_Find/Union_Find.iml" filepath="$PROJECT_DIR$/Union_Find/Union_Find.iml" />
     </modules>
