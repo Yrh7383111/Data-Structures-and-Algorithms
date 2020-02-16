@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Tables/src/Coding_problems/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/src/Coding_Problems/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Tables/src/Coding_problems/FourSumHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/src/Coding_Problems/FourSumHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/MedianHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/RandomizedPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/RandomizedPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/TaxicabNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/TaxicabNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Dictionary/LookupCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Dictionary_Clients/LookupCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/BlackFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/BlackFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/SET.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/SET.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/WhiteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/WhiteFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSumHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSumHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/ST_Applications/SET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ$HeapIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/TaxicabNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/TaxicabNumber.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +90,7 @@
     <property name="project.structure.proportion" value="0.2705078" />
     <property name="project.structure.side.proportion" value="0.16611296" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.24096386" />
   </component>
@@ -127,7 +112,7 @@
       <command value="git st" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SparseVector">
     <configuration name="SET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ST_Applications.SET" />
       <module name="Hash_Tables" />
@@ -141,8 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparseVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sparse_Vectors_and_Matrices.SparseVector" />
+      <module name="ST_Applications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sparse_Vectors_and_Matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparseVector" />
         <item itemvalue="Application.SET" />
       </list>
     </recent_temporary>
@@ -204,7 +203,7 @@
       <workItem from="1581527539793" duration="3354000" />
       <workItem from="1581694887538" duration="1401000" />
       <workItem from="1581877331037" duration="195000" />
-      <workItem from="1581883488589" duration="2852000" />
+      <workItem from="1581883488589" duration="3354000" />
     </task>
     <servers />
   </component>
@@ -265,37 +264,41 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="403" y="24" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1580761157662" />
+    <state x="302" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581893224661">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="302" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1581893224661" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1577473958723">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1577473898704" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.716@0.23.1280.716" timestamp="1577473958723" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1581891916763">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1581893239807">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581891916763" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581893239807" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1578275695953" />
     <state width="1238" height="251" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579738379612" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1581891916762">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1581893239806">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581891916762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581893239806" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="262" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1578275695951" />
     <state width="1238" height="251" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1579738379610" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1581891916761">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1581893239805">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581891916761" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581893239805" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
     <state width="1238" height="262" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1578275695950" />
     <state width="1238" height="251" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1579738379608" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1581891916763">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1581893239806">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581891916763" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581893239806" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="262" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1578275695952" />
     <state width="1238" height="251" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1579738379611" />
