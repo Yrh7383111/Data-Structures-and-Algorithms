@@ -1,4 +1,4 @@
-package Coding_problems;
+package Coding_Problems;
 
 
 

@@ -1,9 +1,8 @@
-package Coding_problems;
+package Coding_Problems;
 
 
 import Binary_Heap.MaxPQ;
 import Binary_Heap.MinPQ;
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Arrays;

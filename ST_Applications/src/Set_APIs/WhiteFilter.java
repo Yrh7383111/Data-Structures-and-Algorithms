@@ -1,4 +1,4 @@
-package Set;
+package Set_APIs;
 
 
 import edu.princeton.cs.algs4.In;
@@ -7,11 +7,10 @@ import edu.princeton.cs.algs4.StdOut;
 
 
 
-public class BlackFilter
+public class WhiteFilter
 {
-
     // Do not instantiate.
-    private BlackFilter() { }
+    private WhiteFilter() { }
 
     public static void main(String[] args)
     {
@@ -27,7 +26,7 @@ public class BlackFilter
         // read in string from standard input, printing out all exceptions
         while (!StdIn.isEmpty()) {
             String word = StdIn.readString();
-            if (!set.contains(word))
+            if (set.contains(word))
                 StdOut.println(word);
         }
     }

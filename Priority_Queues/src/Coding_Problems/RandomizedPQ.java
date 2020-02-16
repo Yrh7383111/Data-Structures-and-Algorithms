@@ -1,4 +1,4 @@
-package Coding_problems;
+package Coding_Problems;
 
 
 import edu.princeton.cs.algs4.StdRandom;

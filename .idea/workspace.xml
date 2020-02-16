@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Tables/src/Coding_problems/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/src/Coding_Problems/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Tables/src/Coding_problems/FourSumHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/src/Coding_Problems/FourSumHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/MedianHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/MedianHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/RandomizedPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/RandomizedPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/src/Coding_problems/TaxicabNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/src/Coding_Problems/TaxicabNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Dictionary/LookupCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Dictionary_Clients/LookupCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/BlackFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/BlackFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/SET.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/SET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST_Applications/src/Set/WhiteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/src/Set_APIs/WhiteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSumHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hash_Tables/Coding_problems/FourSumHashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hash_Tables/ST_Applications/SET.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/MedianHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ$HeapIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/RandomizedPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/TaxicabNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Priority_Queues/Coding_problems/TaxicabNumber.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +133,7 @@
       <module name="Hash_Tables" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Set.*" />
+          <option name="PATTERN" value="Set_APIs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,7 +204,7 @@
       <workItem from="1581527539793" duration="3354000" />
       <workItem from="1581694887538" duration="1401000" />
       <workItem from="1581877331037" duration="195000" />
-      <workItem from="1581883488589" duration="2092000" />
+      <workItem from="1581883488589" duration="2852000" />
     </task>
     <servers />
   </component>
@@ -254,32 +270,32 @@
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1577473898704" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.716@0.23.1280.716" timestamp="1577473958723" />
-    <state width="1238" height="166" key="GridCell.Tab.0.bottom" timestamp="1581884811046">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1581891916763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581884811046" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581891916763" />
     <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
     <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1578275695953" />
     <state width="1238" height="251" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579738379612" />
-    <state width="1238" height="166" key="GridCell.Tab.0.center" timestamp="1581884811045">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1581891916762">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581884811045" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581891916762" />
     <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
     <state width="1238" height="262" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1578275695951" />
     <state width="1238" height="251" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1579738379610" />
-    <state width="1238" height="166" key="GridCell.Tab.0.left" timestamp="1581884811044">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1581891916761">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581884811044" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581891916761" />
     <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
     <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
     <state width="1238" height="262" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1578275695950" />
     <state width="1238" height="251" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1579738379608" />
-    <state width="1238" height="166" key="GridCell.Tab.0.right" timestamp="1581884811045">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1581891916763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581884811045" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581891916763" />
     <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
     <state width="1238" height="262" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1578275695952" />
     <state width="1238" height="251" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1579738379611" />
@@ -354,16 +370,5 @@
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1580784018728" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1581883471444" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Union_Find/src/percolation/Percolation.java</url>
-          <line>149</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

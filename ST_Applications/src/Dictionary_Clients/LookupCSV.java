@@ -1,4 +1,4 @@
-package Dictionary;
+package Dictionary_Clients;
 
 
 import edu.princeton.cs.algs4.In;

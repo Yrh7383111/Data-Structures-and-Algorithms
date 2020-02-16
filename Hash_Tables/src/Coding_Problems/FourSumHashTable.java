@@ -1,7 +1,6 @@
-package Coding_problems;
+package Coding_Problems;
 
 
-import java.util.ArrayList;
 import java.util.HashSet;
 
 public class FourSumHashTable
