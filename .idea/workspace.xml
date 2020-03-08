@@ -2,6 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/Geometric_Applications_of_BSTs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/Kd_Trees/KdTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/Kd_Trees/PointSET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeInsightSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/file.template.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/AnnotationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/findbugs-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/inspectionProfiles/Algorithms__Part_I.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/libraries/algs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/algs4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-coursera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-lift.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/spotbugs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/Algorithms, Part I.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/KdTreeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/KdTreeVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/NearestNeighborVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/RangeSearchVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle1000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/horizontal8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input100K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input10K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input1M.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input200K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input20K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input400K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input40K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input800K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input80K.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/vertical7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/KdTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/KdTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/PointSET.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -225,7 +282,7 @@
       <workItem from="1582493035191" duration="137000" />
       <workItem from="1583016457791" duration="869000" />
       <workItem from="1583097611456" duration="1243000" />
-      <workItem from="1583549071806" duration="20707000" />
+      <workItem from="1583549071806" duration="20714000" />
     </task>
     <servers />
   </component>
