@@ -2,66 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/Geometric_Applications_of_BSTs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/Kd_Trees/KdTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/Kd_Trees/PointSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeInsightSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/AnnotationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/fileTemplates/internal/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/findbugs-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/inspectionProfiles/Algorithms__Part_I.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/algs4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-coursera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-lift.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/checkstyle-suppressions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/.lift/spotbugs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/Algorithms, Part I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/KdTreeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/KdTreeVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/NearestNeighborVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/RangeSearchVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle1000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle10000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/circle4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/horizontal8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input100K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input10K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input1M.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input200K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input20K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input400K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input40K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input800K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/input80K.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/src/tests/vertical7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/KdTree$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/KdTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Geometric_Applications_of_BSTs/Kd_Trees/PointSET.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis_of_Algorithms/Analysis_of_Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Balanced_Search_Trees/Balanced_Search_Trees.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures-and-Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Sorts/Elementary_Sorts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elementary_Symbol_Tables/Elementary_Symbol_Tables.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/Geometric_Applications_of_BSTs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Geometric_Applications_of_BSTs/Geometric_Applications_of_BSTs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Tables/Hash_Tables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Tables/Hash_Tables.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Priority_Queues/Priority_Queues.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/Quick_Sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST_Applications/ST_Applications.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ST_Applications/ST_Applications.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks_and_Queues/Stacks_and_Queues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks_and_Queues/Stacks_and_Queues.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Union_Find/Union_Find.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Union_Find/Union_Find.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +34,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Data-Structures-and-Algorithms" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +71,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
@@ -130,6 +79,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -147,10 +97,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.2705078" />
-    <property name="project.structure.side.proportion" value="0.16611296" />
+    <property name="project.structure.side.proportion" value="0.3243968" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.mallowigi.config" />
     <property name="settings.editor.splitter.proportion" value="0.24096386" />
   </component>
   <component name="RecentsManager">
@@ -169,66 +119,6 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git st" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.KdTree">
-    <configuration name="KdTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kd_Trees.KdTree" />
-      <module name="Geometric_Applications_of_BSTs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kd_Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ST_Applications.SET" />
-      <module name="Hash_Tables" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Set_APIs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparseVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sparse_Vectors_and_Matrices.SparseVector" />
-      <module name="ST_Applications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sparse_Vectors_and_Matrices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.KdTree" />
-        <item itemvalue="Application.SparseVector" />
-        <item itemvalue="Application.SET" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -282,179 +172,111 @@
       <workItem from="1582493035191" duration="137000" />
       <workItem from="1583016457791" duration="869000" />
       <workItem from="1583097611456" duration="1243000" />
-      <workItem from="1583549071806" duration="20714000" />
+      <workItem from="1583549071806" duration="20974000" />
+      <workItem from="1583794961361" duration="11019000" />
+      <workItem from="1585425760405" duration="541000" />
+      <workItem from="1585445715681" duration="116000" />
+      <workItem from="1585506128698" duration="1631000" />
+      <workItem from="1585615686452" duration="831000" />
+      <workItem from="1587159177094" duration="29000" />
+      <workItem from="1587159785691" duration="2190000" />
+      <workItem from="1587164146927" duration="81000" />
+      <workItem from="1587164252711" duration="26000" />
+      <workItem from="1587164304989" duration="74000" />
+      <workItem from="1587164443710" duration="23000" />
+      <workItem from="1587164492708" duration="236000" />
+      <workItem from="1587779571676" duration="52000" />
+      <workItem from="1588525166189" duration="82000" />
+      <workItem from="1588872333360" duration="25000" />
+      <workItem from="1591754252338" duration="136000" />
+      <workItem from="1591754397275" duration="312000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="50" key="#BTree" timestamp="1580784160402">
+    <state x="240" y="48" key="#Plugins" timestamp="1587164510414">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="318" y="50" key="#BTree/0.0.1280.800@0.0.1280.800" timestamp="1580784160402" />
-    <state x="318" y="61" key="#MinPQTest" timestamp="1576638024890">
+    <state x="240" y="48" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1587164510414" />
+    <state x="128" y="23" width="1024" height="710" key="#Project_Structure" timestamp="1591754369276">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="318" y="61" key="#MinPQTest/0.0.1280.800@0.0.1280.800" timestamp="1576638024890" />
-    <state x="240" y="64" key="#Project_Structure" timestamp="1583549199439">
+    <state x="128" y="23" width="1024" height="710" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1591754369276" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591754385571">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="64" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1583549199439" />
-    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580783885760">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1580783885760" />
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581884795570">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="104" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1581884795570" />
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1591754385571" />
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1583550024006">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583550024006" />
-    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578197156484">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587164345266">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="328" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1578197156484" />
-    <state x="154" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581884889049">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1587164345266" />
+    <state width="1238" height="234" key="GridCell.Tab.0.bottom" timestamp="1585668387680">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="154" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1581884889049" />
-    <state x="378" y="154" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581048768575">
+    <state width="1238" height="234" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585668387680" />
+    <state width="1238" height="261" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1585507979950" />
+    <state width="1238" height="234" key="GridCell.Tab.0.center" timestamp="1585668387678">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="154" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.800@0.0.1280.800" timestamp="1581048768575" />
-    <state x="403" y="24" key="#xdebugger.evaluate" timestamp="1580761157662">
+    <state width="1238" height="234" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585668387678" />
+    <state width="1238" height="261" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1585507979948" />
+    <state width="1238" height="234" key="GridCell.Tab.0.left" timestamp="1585668387676">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="403" y="24" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1580761157662" />
-    <state x="302" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581893224661">
+    <state width="1238" height="234" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585668387676" />
+    <state width="1238" height="261" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1585507979947" />
+    <state width="1238" height="234" key="GridCell.Tab.0.right" timestamp="1585668387678">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="302" y="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1581893224661" />
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1577473958723">
-      <screen x="0" y="23" width="1280" height="716" />
-    </state>
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1577473898704" />
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.716@0.23.1280.716" timestamp="1577473958723" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583612138325">
+    <state width="1238" height="234" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585668387678" />
+    <state width="1238" height="261" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1585507979949" />
+    <state width="1238" height="398" key="GridCell.Tab.1.bottom" timestamp="1585514303933">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583612138325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1581893437369" />
-    <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1575148559542" />
-    <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1578275695953" />
-    <state width="1238" height="251" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579738379612" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583612138323">
+    <state width="1238" height="398" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585514303933" />
+    <state width="1238" height="398" key="GridCell.Tab.1.center" timestamp="1585514303930">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583612138323" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1581893437368" />
-    <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1575148559537" />
-    <state width="1238" height="262" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1578275695951" />
-    <state width="1238" height="251" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1579738379610" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583612138322">
+    <state width="1238" height="398" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585514303930" />
+    <state width="1238" height="398" key="GridCell.Tab.1.left" timestamp="1585514303930">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583612138322" />
-    <state width="1238" height="129" key="GridCell.Tab.0.left/0.0.1280.800@0.23.1280.715" timestamp="1574999991303" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1581893437367" />
-    <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1575148559536" />
-    <state width="1238" height="262" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1578275695950" />
-    <state width="1238" height="251" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1579738379608" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583612138324">
+    <state width="1238" height="398" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585514303930" />
+    <state width="1238" height="398" key="GridCell.Tab.1.right" timestamp="1585514303932">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583612138324" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1581893437369" />
-    <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1575148559538" />
-    <state width="1238" height="262" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1578275695952" />
-    <state width="1238" height="251" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1579738379611" />
-    <state width="1238" height="234" key="GridCell.Tab.1.bottom" timestamp="1581119027978">
+    <state width="1238" height="398" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585514303932" />
+    <state x="0" y="78" width="1280" height="722" key="SettingsEditor" timestamp="1587164727875">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="234" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581119027978" />
-    <state width="1238" height="262" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1578275695956" />
-    <state width="1238" height="251" key="GridCell.Tab.1.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579738417616" />
-    <state width="1238" height="234" key="GridCell.Tab.1.center" timestamp="1581119027978">
+    <state x="0" y="78" width="1280" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587164727875" />
+    <state x="317" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1587164305488">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="234" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581119027978" />
-    <state width="1238" height="262" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1578275695954" />
-    <state width="1238" height="251" key="GridCell.Tab.1.center/0.23.1280.715@0.23.1280.715" timestamp="1579738417614" />
-    <state width="1238" height="234" key="GridCell.Tab.1.left" timestamp="1581119027977">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="234" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581119027977" />
-    <state width="1238" height="262" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1578275695954" />
-    <state width="1238" height="251" key="GridCell.Tab.1.left/0.23.1280.715@0.23.1280.715" timestamp="1579738417614" />
-    <state width="1238" height="234" key="GridCell.Tab.1.right" timestamp="1581119027978">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="234" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581119027978" />
-    <state width="1238" height="262" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1578275695955" />
-    <state width="1238" height="251" key="GridCell.Tab.1.right/0.23.1280.715@0.23.1280.715" timestamp="1579738417615" />
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor" timestamp="1578583594466">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="0" y="0" width="1280" height="800" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1578583594466" />
-    <state width="614" height="445" key="SwitcherDM" timestamp="1575052703594">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="614" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1575052703594" />
-    <state x="317" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1583549079897">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1583097610703" />
+    <state x="317" y="208" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1587164305488" />
     <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.709@0.23.1280.709" timestamp="1583549079897" />
-    <state x="317" y="210" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1574988451537" />
-    <state x="342" y="294" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578363062611">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="342" y="294" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1578363062611" />
-    <state x="422" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581187994049">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="422" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1581187994049" />
-    <state x="412" y="106" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576637981415">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="412" y="106" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1576637981415" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1578362879529">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1578362879529" />
     <state x="34" y="48" width="1246" height="713" key="new project wizard" timestamp="1583549162173">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="34" y="48" width="1246" height="713" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1583549162173" />
-    <state x="402" y="5" key="refactoring.ChangeSignatureDialog" timestamp="1575390729863">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="402" y="5" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1575390729863" />
-    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1581187934720">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1581187934720" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1581883471444">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1580784018728" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1581883471444" />
   </component>
 </project>
