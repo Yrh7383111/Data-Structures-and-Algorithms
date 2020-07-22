@@ -10,5 +10,5 @@ Stack, Queue, Deque, Priority queue
 
 Hash table - Separate chaining, Open addressing
 
-Tree - Red and black tree, AVL tree, Quad tree, B tree
+Tree - Red and black tree, AVL tree, B tree
 ```
