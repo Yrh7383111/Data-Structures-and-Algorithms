@@ -1,4 +1,4 @@
-package DepthFirstSearch;
+package Coding_Problems;
 
 
 import edu.princeton.cs.algs4.Graph;
