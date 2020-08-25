@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64d243a-b881-4b5b-bebf-74fff70955ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/JacksonYin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undirected_Graphs/src/DepthFirstSearch/NonrecursiveDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undirected_Graphs/src/Coding_Problems/NonrecursiveDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Undirected_Graphs/DepthFirstSearch/NonrecursiveDFS.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,22 +110,9 @@
       <command value="git st" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterCenterTree">
-    <configuration name="DiameterCenterTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding_Problems.DiameterCenterTree" />
-      <module name="Undirected_Graphs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Coding_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonrecursiveDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding_Problems.NonrecursiveDFS" />
+  <component name="RunManager">
+    <configuration name="EulerianCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coding_Problems.EulerianCycle" />
       <module name="Undirected_Graphs" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiameterCenterTree" />
-        <item itemvalue="Application.NonrecursiveDFS" />
+        <item itemvalue="Application.EulerianCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -250,26 +235,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="23" width="1024" height="710" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1598286918157" />
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591754385571">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598380267651">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1591754385571" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1598298494628">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1598380267651" />
+    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1598382931932">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598298494628" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1598298494627">
+    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598382931932" />
+    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1598382931931">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598298494627" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1598298494627">
+    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598382931931" />
+    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1598382931930">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598298494627" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1598298494628">
+    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598382931930" />
+    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1598382931931">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598298494628" />
+    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598382931931" />
     <state x="8" y="0" key="new project wizard" timestamp="1598286632732">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
